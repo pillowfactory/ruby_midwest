@@ -1,51 +1,175 @@
+/* @override http://localhost:4331/css/site.css */
+
 
 body {
-  font-family: Verdana, "Bitstream Vera Sans", sans-serif;
+  margin: 0;
+  font-family:
+  	"Bookman Old Style",
+    "Serifa BT",
+    "URW Bookman L",
+    "itc bookman";
+  color: #232827;
+  font-size: 16px;
+  background: #446956;
 }
 
-/* Headings
- * --------------------------------------------------------------------- */
-h1,h2,h3,h4,h5,h6 { color: #111; }
+#speakers li {
+  margin: 1em 0;
+}
+#master {
+  background: url(../images/bg.jpg);  
+  padding: 20px 0 0 0;
+}
+h1, h2, h3, h4 {
+  margin: .3em 0;
+}
+h5 {
+  font-size: 1em;
+  text-transform: uppercase;
+}
+p {
 
-/* Text Elements
- * --------------------------------------------------------------------- */
-a                 { color: #125AA7; }
-a:hover           { color: #000; }
-blockquote        { color: #666; }
-
-pre {
-  background: #eee;
-  border:     1px solid #ddd;
 }
 
-hr {
-  background: #B2CCFF;
-  color:      #B2CCFF;
+a {
+  color: #fff;
+  text-decoration: none;
 }
 
-/* Tables
- * --------------------------------------------------------------------- */
-table {
-  border-top:     1px solid #ddd;
-  border-left:    1px solid #ddd;
-}
-th,td {
-  border-bottom:  1px solid #ddd;
-  border-right:   1px solid #ddd;
+a:hover {
+  text-decoration: underline;
 }
 
-/* Default Classes
- * --------------------------------------------------------------------- */
-p.quiet { color: #666; }
-.alt    { color: #666; }
-
-p.title {
-  color: #111;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 2em;
-  margin-bottom: 0.75em;
+a img {
+  border: none;
 }
 
-#header p.title { font-size: 3em; line-height: 1; margin-bottom: 0.5em; }
+#left-col {
+  padding-bottom: 25px;
+}
 
-/* EOF */
+#welcome p {
+  font-style: italic;
+}
+
+h1#rmw {
+  display: block;
+  width: 772px;
+  height: 329px;
+  margin: 0 auto;
+  background: url(../images/logo.png) no-repeat;
+  text-indent: -999em;
+}
+
+ul#speakers {
+  padding: 0;
+  list-style: none;
+}
+
+#agenda table {
+  width: 100%;
+}
+#agenda table h5 {
+  margin: .5em 0 0 0;
+  font-weight: normal;
+  font-size: .9em;
+}
+#agenda table td {
+  padding: 5px 0;
+}
+
+span.time {
+  text-transform: uppercase;
+  font-size: .8em;
+  color: #647471;
+}
+
+#welcome {
+  border-bottom: 2px solid #7cadbd;
+}
+
+#location {
+  padding-top: 20px;
+}
+#location iframe {
+  border: 4px solid rgba(67,112,131,0.34);
+}
+
+#info {
+  margin-top: 20px;
+}
+#info input#email {
+  font-size: 1.3em;
+  width: 210px;
+  margin-right: 10px;
+  border: 4px solid rgba(67,112,131,.7);  
+  font-style: normal;
+}
+#info input#submit {
+  background: none;
+  border: none;
+  color: #9d182f;
+  font-family:
+  	"Bookman Old Style",
+    "Serifa BT",
+    "URW Bookman L",
+    "itc bookman";
+    font-size: 1.5em;
+    font-weight: bold;
+  font-style: normal;    
+}
+
+#lower {  
+  border-top: 10px solid rgba(67,112,131,0.34);
+  padding: 10px 0 0 0;
+  margin: 20px 0;
+  background: rgba(256,256,256,.3);
+}
+#pasture {
+  padding: 10px;
+  background: #456a57 url(../images/grassline.png) repeat-x;
+}
+#footer {
+  margin-top: -164px;
+  background:url(../images/footer.png) no-repeat center top;	
+  padding: 1px;
+}
+
+#footer .container {
+  margin-top: 180px;
+  padding-bottom: 70px;
+}
+#footer img {
+  margin: 0 5px;
+}
+#footer img#red {
+  vertical-align: middle;
+}
+#credits {
+  text-align: right;
+  padding-right: 50px;
+}
+#right-col {
+  padding-bottom: 160px;
+}
+
+#speakers li h4 {
+  color: #fff;
+  font-weight: normal;
+  font-size: 1.2em;
+  margin: 0; 
+}
+
+#speakers h4, #agenda table{
+  font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;   
+}
+
+#speakers p {
+  margin: .3em 0;
+  font-size: .9em;
+}
+
+/*#footer {
+
+  height: 300px;
+}*/

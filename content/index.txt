@@ -1,19 +1,68 @@
 ---
-title:       Home Page
+title:       Ruby Midwest
 created_at:  2008-08-02 14:06:40.000000 -06:00
 filter:
   - erb
-  - textile
+  - haml
 ---
-p(title). <%= @page.title %>
+#left-col.col-1.first
+  #welcome
+    %h2 It's here!
+    %p Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nunc congue ipsum vestibulum libero. Aenean vitae justo. Nam eget tellus. Etiam convallis, est eu lobortis mattis, lectus tellus tempus felis, a ultricies erat ipsum at metus.
+    %p Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nunc congue ipsum vestibulum libero. Aenean vitae justo. Nam eget tellus. Etiam convallis, est eu lobortis mattis, lectus tellus tempus felis, a ultricies erat ipsum at metus.
+  #location
+    %h4 Johnson County Community College
+    %h3
+      12345 College Boulevard
+      %br
+      Overland Park, KS 66210
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nunc congue ipsum vestibulum libero. Aenean vitae justo. Nam eget tellus. Etiam convallis, est eu lobortis mattis, lectus tellus tempus felis, a ultricies erat ipsum at metus.
+    %iframe{ :scrolling => "no", :marginheight => "0", :marginwidth => "0", :src => "http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=jccc&amp;sll=38.907663,-94.923957&amp;sspn=0.009501,0.016158&amp;ie=UTF8&amp;hq=jccc&amp;hnear=&amp;cid=3592378569719498048&amp;ll=38.935378,-94.717941&amp;spn=0.04807,0.147285&amp;z=12&amp;output=embed", :frameborder => "0", :height => "180", :width => "430" }
+    %br
+    %small
+      %a{ :href => "http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=jccc&amp;sll=38.907663,-94.923957&amp;sspn=0.009501,0.016158&amp;ie=UTF8&amp;hq=jccc&amp;hnear=&amp;cid=3592378569719498048&amp;ll=38.935378,-94.717941&amp;spn=0.04807,0.147285&amp;z=12"}
+        View Larger Map
 
-h2. Litora Sociis
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi et risus. Aliquam nisl. Nulla facilisi. Cras accumsan vestibulum ante. Vestibulum sed tortor. Praesent tempus fringilla elit. Ut elit diam, sagittis in, nonummy in, gravida non, nunc. Ut orci. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Nam egestas, orci eu imperdiet malesuada, nisl purus fringilla odio, quis commodo est orci vitae justo. Aliquam placerat odio tincidunt nulla. Cras in libero. Aenean rutrum, magna non tristique posuere, erat odio eleifend nisl, non convallis est tortor blandit ligula. Nulla id augue.
 
-bq. Nullam mattis, odio ut tempus facilisis, metus nisl facilisis metus, auctor consectetuer felis ligula nec mauris. Vestibulum odio erat, fermentum at, commodo vitae, ultrices et, urna. Mauris vulputate, mi pulvinar sagittis condimentum, sem nulla aliquam velit, sed imperdiet mi purus eu magna. Nulla varius metus ut eros. Aenean aliquet magna eget orci. Class aptent taciti sociosqu ad litora.
+#right-col.col-1
+  .col.w215.first
+    %h2 Speakers
+    %ul#speakers
+      %li
+        %h4
+          %a{:href => '#'} John Doe
+        %p John is the topmost technology master
+      %li
+        %h4
+          %a{:href => '#'} Frank Whosit
+        %p Basically John's assistant
+  .col.w215#agenda
+    %h2 Agenda
+    %table
+      %tr
+        %td{:colspan => '2'}
+          %h5 July 26, 2010
+        %tr
+          %td
+            %span.time 12:00 pm
+          %td
+            %span Activities
+          %tr
+            %td
+              %span.time 1:00 pm
+            %td
+              %span More Activities
+          %tr
+            %td
+              %span.time 2:30 pm
+            %td
+              %span Talks
+  .first
+  #info.first
+    %h3 Email Updates
+    %form
+      %input{:type => 'email', :id => 'email', :placeholder => 'email'}
+      %input{:type => 'submit', :value => 'Submit', :id => 'submit'}
 
-Vivamus euismod. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse vel nibh ut turpis dictum sagittis. Aliquam vel velit a elit auctor sollicitudin. Nam vel dui vel neque lacinia pretium. Quisque nunc erat, venenatis id, volutpat ut, scelerisque sed, diam. Mauris ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec mattis. Morbi dignissim sollicitudin libero. Nulla lorem.
-
+.first
