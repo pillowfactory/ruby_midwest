@@ -1,2 +1,2 @@
-gem 'rack-contrib', :git => 'git://github.com/rack/rack-contrib.git'
+gem 'rack-rack-contrib' --source=http://gems.github.com/
 gem 'rack-rewrite'
