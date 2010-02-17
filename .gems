@@ -1,2 +1,1 @@
-gem 'rack-rack-contrib' --source=http://gems.github.com/
 gem 'rack-rewrite'
