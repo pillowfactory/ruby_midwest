@@ -1,6 +1,6 @@
 ---
 extension: html
-filter:    
+filter:
   - erb
   - haml
 ---
@@ -11,21 +11,34 @@ filter:
     %title
       = @page.title
     %meta{ :name => "author", :content => "#{@page.author}" }
-    %link{ :href => "/css/framework.css", :rel => "stylesheet", :type => "text/css", :media => "screen, projection" }    
+    %link{ :href => "/css/framework.css", :rel => "stylesheet", :type => "text/css", :media => "screen, projection" }
     %link{ :href => "/css/site.css", :rel => "stylesheet", :type => "text/css", :media => "screen, projection" }
+    %script{:src => '/javascripts/jquery.js', :type => 'text/javascript'}
+    %script{:src => '/javascripts/application.js', :type => 'text/javascript'}
   %body
     #master
       #header.container
-        %h1#rmw Ruby Midwest
+        %h1#rmw 
+          %a{:href => '/'} Ruby Midwest
 
       #lower
+        #nav.container
+          %ul
+            %li
+              %a{:href => '/location.html'} Location
+            %li
+              %a{:href => '/program.html'} Program
+            %li
+              %a{:href => '/about.html'} About
+            %li
+              %a{:href => '/sponsors.html'} Sponsors
         #content.container
           = @content
         #pasture
           #footer
             .container
               #credits
-                %small 
+                %small
                   design &amp; development by
                   %a{:href => 'http://cremalab.com'}
                     %img{:src => '/images/CremaLab_Logo.png', :alt => 'CremaLab'}
@@ -40,4 +53,4 @@ filter:
       var pageTracker = _gat._getTracker("UA-13101573-1");
       pageTracker._trackPageview();
       } catch(err) {}
-    
+

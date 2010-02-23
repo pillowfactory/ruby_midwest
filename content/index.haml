@@ -6,13 +6,45 @@ filter:
   - haml
 ---
 #left-col.col-1.first
-  #welcome
-    %h2 Ruby Midwest Conference 2010
+  #welcome.section
+    %h2 July 16th - 17th, 2010
     %p Right in the middle of <del>nowhere</del> everything.  Kansas City's growing Ruby community is excited to host our first regional conference!
     %p Ruby Midwest is a <b>two day, single track conference</b> focused on the joy and productivity of Ruby, Rails, & JRuby.
+
+  #speakers.section
+    %h3 Speakers
+    #image_list
+    .content
+      .loader
+        %p Ruby Midwest is currently looking for speakers.
+      
+      .speaker
+        %img.mugshot{:src => '/images/speakers/thompson.jpg', :alt => 'Phillip Thompson'}
+        .desc
+          %h5.name Phillip Thompson
+          %p Phillip is the bomb. One time his friend dared him to drink a mixture of toothpaste and tomato sauce and he totally did it.
+      
+      .speaker
+        %img.mugshot{:src => '/images/speakers/johnson.jpg', :alt => 'Randy Johnson'}
+        .desc
+          %h5.name Randy Johnson
+          %p Randy was a MLB pitcher with a funny name. Now he is a retired person with a funny name. He will not be speaking at this conference.
+        
+        .speaker
+          %img.mugshot{:src => '/images/speakers/you.png', :alt => 'Speak at Ruby Midwest'}
+          .desc
+            %h5.name YOU?
+            %p 
+              You should speak at Ruby Midwest. Seriously.
+              %a{:href => 'sponsors.html'} Transmorph yourself into one.
+      .first
+
+
   #location
-    %h4 University of Missouri, Kansas City, Pierson Auditorium
-    %h3
+    %h3 Location
+    %p
+      %strong University of Missouri, Kansas City, Pierson Auditorium
+      %br
       5100 Rockhill Rd.
       %br
       Kansas City, MO 64110
@@ -24,48 +56,8 @@ filter:
         View Larger Map
 
 
+= render :partial => "right_bar"
 
 
-#right-col.col-1
-  %h2 Speakers
-  %p We're looking for...
-  -# .col.w215.first
-    -# %h2 Speakers
-    -# %ul#speakers
-      -# %li
-        -# %h4
-          -# %a{:href => '#'} John Doe
-        -# %p John is the topmost technology master
-      -# %li
-        -# %h4
-          -# %a{:href => '#'} Frank Whosit
-        -# %p Basically John's assistant
-  -# .col.w215#agenda
-    -# %h2 Agenda
-    -# %table
-      -# %tr
-        -# %td{:colspan => '2'}
-          -# %h5 July 26, 2010
-        -# %tr
-          -# %td
-            -# %span.time 12:00 pm
-          -# %td
-            -# %span Activities
-          -# %tr
-            -# %td
-              -# %span.time 1:00 pm
-            -# %td
-              -# %span More Activities
-          -# %tr
-            -# %td
-              -# %span.time 2:30 pm
-            -# %td
-              -# %span Talks
-  .first
-  #info.first
-    %h3 Email Updates
-    %form
-      %input{:type => 'email', :id => 'email', :placeholder => 'email'}
-      %input{:type => 'submit', :value => 'Submit', :id => 'submit'}
 
 .first

@@ -1,0 +1,30 @@
+---
+filter: 
+  - haml
+---
+
+#right-col.col-1
+  #sponsors.section
+    %h3 Sponsors
+    %img{:src => '/images/sponsors/engine-yard.png', :alt => 'Engine Yard'}
+    %img{:src => '/images/sponsors/engine-yard.png', :alt => 'Engine Yard'}
+    %img{:src => '/images/sponsors/engine-yard.png', :alt => 'Engine Yard'}
+    %img{:src => '/images/sponsors/engine-yard.png', :alt => 'Engine Yard'}
+
+  #registration
+    %h3 Registration
+    %p Early Bird Registration: $75
+    %p General Admission: $75
+  .col.w215.first
+    #info
+      %h3 Email Updates
+      %form
+        %input{:type => 'email', :id => 'email', :placeholder => 'email'}
+        %input{:type => 'submit', :value => 'Submit', :id => 'submit'}
+
+  .col.w215
+    #info
+      %h3 Twitter
+      %a{ :href => "http://www.twitter.com/rubymidwest" }
+        %img{ :src => "http://twitter-badges.s3.amazonaws.com/t_small-b.png", :alt => "Follow rubmidwest on Twitter" }
+        Follow @rubymidwest

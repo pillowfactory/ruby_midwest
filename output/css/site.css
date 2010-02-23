@@ -23,12 +23,17 @@ body {
 h1, h2, h3, h4 {
   margin: .3em 0;
 }
+h2 {
+  font-size: 1.8em;
+}
+h3 {
+  font-size: 1.3em;
+}
 h5 {
   font-size: 1em;
   text-transform: uppercase;
 }
 p {
-
 }
 
 a {
@@ -50,20 +55,120 @@ a img {
 
 #welcome p {
   font-style: italic;
+  color: #444;
 }
 
-h1#rmw {
+#nav ul {
+  font-weight: bold;
+  background: rgba(67,112,131,0.34);
+  position: relative;
+  z-index: 500;
+  float: right;
+  padding: 0 10px 5px 10px;
+  margin: 0 20px 0 0;
+  -webkit-border-bottom-left-radius:6px;
+  -webkit-border-bottom-right-radius:6px;    -moz-border-radius-bottomleft:6px;
+  -moz-border-radius-bottomright:6px;
+}
+
+#nav ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+#nav ul li a {
   display: block;
+  padding: 5px;  
+  -webkit-border-radius:4px;  -moz-border-radius:4px;
+  text-shadow: #556e74 0 2px 1px;
+  position: relative;
+  top: -1px;
+}
+#nav ul li a:hover {
+  top: 0;
+  text-decoration: none;
+  color: #c2e9ed;
+  background-color: rgba(0,0,0,.1);
+  text-shadow: none;  
+  -webkit-transition-porperty: top, color, background-color, text-shadow;
+  -webkit-transition-duration: .1s;     
+}
+
+h1#rmw a {
+  display: block;
+  position: relative;
+  z-index: 200;
   width: 772px;
   height: 329px;
   margin: 0 auto;
   background: url(../images/logo.png) no-repeat;
   text-indent: -999em;
 }
+#speakers #you {
+  background: rgba(0,0,0,.3);
+}
+#speakers .speakerLink, a#you {
+  display: inline-block;
+  width: 66px;
+  height: 80px;  
+  padding: 5px;
+  text-decoration: none;
+}
+#speakers .speakerLink img {
+  opacity: .7;
+  -webkit-transition: opacity .5s linear;    
+}
+#speakers .speakerLink.active, #you {
+  background: rgba(67,112,131,0.34);
+  -webkit-border-top-left-radius:4px;
+  -webkit-border-top-right-radius:4px;    -moz-border-radius-topleft:4px;
+  -moz-border-radius-topright:4px;
+}
+#speakers .speakerLink.active img, #speakers .speakerLink:hover img {
+  opacity: 1;
+  -webkit-transition: opacity .5s linear;    
+}
+#speakers .content {
+  color: #333;
+  background: rgba(67,112,131,0.34);
+  padding: 10px;
+  -webkit-border-bottom-right-radius:4px; 
+  -webkit-border-top-right-radius:4px;    
+  -webkit-border-bottom-left-radius:4px;  
+  -moz-border-radius-topright:4px;  
+  -moz-border-radius-bottomright:4px;
+  -moz-border-radius-bottomleft:4px;
+}
+#speakers h5.name {
+  margin: 0;
+}
+#speakers .desc p {
+  font-size: .9em;
+}
 
-ul#speakers {
-  padding: 0;
-  list-style: none;
+.speaker .mugshot {
+  float: left;
+  margin-right: 10px;
+  clear: both;
+}
+.speaker {
+  clear: both;
+  margin: 10px 0;
+}
+
+#speakers .tip {
+  position: absolute;
+  z-index: 100;
+  background: rgba(0,0,0,.7);
+  border: 4px solid rgba(256,256,256,.8);
+  -webkit-border-radius:4px;-moz-border-radius:4px;
+  color: #fff;
+  font-weight: bold;
+  padding: 5px;
+  margin-top: -3em;
+  margin-left: -.5em;
+  -webkit-box-shadow:0 0 10px #000;
+  -moz-box-shadow:0 0 10px #000;  
 }
 
 #agenda table {
@@ -84,8 +189,10 @@ span.time {
   color: #647471;
 }
 
-#welcome {
-  border-bottom: 2px solid #7cadbd;
+div.section {
+  /*border-bottom: 2px solid #7cadbd;*/
+  /*padding-bottom: 10px;*/
+  margin-bottom: 25px;
 }
 
 #location {
@@ -100,8 +207,8 @@ span.time {
 }
 #info input#email {
   font-size: 1.3em;
-  width: 210px;
-  margin-right: 10px;
+  width: 200px;
+  margin-right: 0;
   border: 4px solid rgba(67,112,131,.7);  
   font-style: normal;
 }
@@ -109,6 +216,7 @@ span.time {
   background: none;
   border: none;
   color: #9d182f;
+  padding: 0;
   font-family:
   	"Bookman Old Style",
     "Serifa BT",
@@ -121,8 +229,8 @@ span.time {
 
 #lower {  
   border-top: 10px solid rgba(67,112,131,0.34);
-  padding: 10px 0 0 0;
-  margin: 20px 0;
+  padding: 0;
+  margin: -50px 0 0 0;
   background: rgba(256,256,256,.3);
 }
 #pasture {
@@ -150,6 +258,7 @@ span.time {
   padding-right: 50px;
 }
 #right-col {
+  padding-top: 1.5em;
   padding-bottom: 160px;
 }
 
@@ -169,6 +278,19 @@ span.time {
   font-size: .9em;
 }
 
+#info a {
+  color: #333;
+}
+#info a:hover {
+  text-decoration: none;
+}
+#info a img {
+  vertical-align: middle;
+}
+
+#sponsors img{
+  margin-right: 5px;
+}
 /*#footer {
 
   height: 300px;

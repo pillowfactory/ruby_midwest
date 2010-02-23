@@ -51,7 +51,10 @@ input.button {
   width: 960px;
   margin: 0 auto;
 }
-
+#content.container {
+  margin-top: 20px;
+  min-height: 300px;  
+}
 .col {
   float: left;
   margin-left: 15px;
