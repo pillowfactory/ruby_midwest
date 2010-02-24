@@ -16,27 +16,29 @@ filter:
     #image_list
     .content
       .loader
-        %p Ruby Midwest is currently looking for speakers.
+        %p 
+          We're looking for speakers. 
+          %a{:class => 'submit-proposal', :href => 'http://spreadsheets.google.com/viewform?formkey=dG1ZTUYyVW5sRFN3U0FFQy1ZaFQwMGc6MA'} Submit a proposal!
       
-      .speaker
-        %img.mugshot{:src => '/images/speakers/thompson.jpg', :alt => 'Phillip Thompson'}
-        .desc
-          %h5.name Phillip Thompson
-          %p Phillip is the bomb. One time his friend dared him to drink a mixture of toothpaste and tomato sauce and he totally did it.
+      -# .speaker
+        -# %img.mugshot{:src => '/images/speakers/thompson.jpg', :alt => 'Phillip Thompson'}
+        -# .desc
+          -# %h5.name Phillip Thompson
+          -# %p Phillip is the bomb. One time his friend dared him to drink a mixture of toothpaste and tomato sauce and he totally did it.
       
-      .speaker
-        %img.mugshot{:src => '/images/speakers/johnson.jpg', :alt => 'Randy Johnson'}
-        .desc
-          %h5.name Randy Johnson
-          %p Randy was a MLB pitcher with a funny name. Now he is a retired person with a funny name. He will not be speaking at this conference.
+      -# .speaker
+        -# %img.mugshot{:src => '/images/speakers/johnson.jpg', :alt => 'Randy Johnson'}
+        -# .desc
+          -# %h5.name Randy Johnson
+          -# %p Randy was a MLB pitcher with a funny name. Now he is a retired person with a funny name. He will not be speaking at this conference.
         
-        .speaker
-          %img.mugshot{:src => '/images/speakers/you.png', :alt => 'Speak at Ruby Midwest'}
+      .speaker
+        %img.mugshot{:src => '/images/speakers/you.png', :alt => 'Speak at Ruby Midwest'}
           .desc
             %h5.name YOU?
             %p 
               You should speak at Ruby Midwest. Seriously.
-              %a{:href => 'sponsors.html'} Transmorph yourself into one.
+              %a{:href => '#'} Transmorph yourself into one.
       .first
 
 
