@@ -1,4 +1,5 @@
 use Rack::Static, :urls => ['/Ruby_Midwest_Sponsorship.pdf', 
+                            '/email_confirm.html',
                             '/facebox', 
                             '/javascripts', 
                             '/images',
