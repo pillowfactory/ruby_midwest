@@ -67,7 +67,8 @@ a img {
   padding: 0 10px 5px 10px;
   margin: 0 20px 0 0;
   -webkit-border-bottom-left-radius:6px;
-  -webkit-border-bottom-right-radius:6px;    -moz-border-radius-bottomleft:6px;
+  -webkit-border-bottom-right-radius:6px;  
+  -moz-border-radius-bottomleft:6px;
   -moz-border-radius-bottomright:6px;
 }
 
@@ -79,7 +80,8 @@ a img {
 #nav ul li a {
   display: block;
   padding: 5px;  
-  -webkit-border-radius:4px;  -moz-border-radius:4px;
+  -webkit-border-radius:4px;
+  -moz-border-radius:4px;
   text-shadow: #556e74 0 2px 1px;
   position: relative;
   top: -1px;
@@ -121,7 +123,8 @@ h1#rmw a {
 #speakers .speakerLink.active, #you {
   background: rgba(67,112,131,0.34);
   -webkit-border-top-left-radius:4px;
-  -webkit-border-top-right-radius:4px;    -moz-border-radius-topleft:4px;
+  -webkit-border-top-right-radius:4px;  
+  -moz-border-radius-topleft:4px;
   -moz-border-radius-topright:4px;
 }
 #speakers .speakerLink.active img, #speakers .speakerLink:hover img {
@@ -161,7 +164,8 @@ h1#rmw a {
   z-index: 100;
   background: rgba(0,0,0,.7);
   border: 4px solid rgba(256,256,256,.8);
-  -webkit-border-radius:4px;-moz-border-radius:4px;
+  -webkit-border-radius:4px;
+-moz-border-radius:4px;
   color: #fff;
   font-weight: bold;
   padding: 5px;
@@ -283,6 +287,9 @@ div.section {
 }
 #info a:hover {
   text-decoration: none;
+}
+#info a:hover span.username {
+  text-decoration: underline;
 }
 #info a img {
   vertical-align: middle;
