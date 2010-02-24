@@ -36,8 +36,9 @@ filter:
   .col.w215.first
     #info
       %h3 Email Updates
-      %form
-        %input{:type => 'email', :id => 'email', :placeholder => 'email'}
+      %form{:action => 'http://ntrackerstaging.nurturehq.com/activities/form_response', :method => 'get'}
+        %input{:type => 'email', :id => 'email', :placeholder => 'email', :name => 'frm'}
+        %input{:type => 'hidden', :name => 'l', :value => 'http://www.rubymidwest.com'}
         %input{:type => 'submit', :value => 'Submit', :id => 'submit'}
  
   .col.w215

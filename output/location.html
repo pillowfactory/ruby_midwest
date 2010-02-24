@@ -89,8 +89,9 @@
             <div class='col w215 first'>
               <div id='info'>
                 <h3>Email Updates</h3>
-                <form>
-                  <input id='email' placeholder='email' type='email' />
+                <form action='http://ntrackerstaging.nurturehq.com/activities/form_response' method='get'>
+                  <input id='email' name='frm' placeholder='email' type='email' />
+                  <input name='l' type='hidden' value='http://www.rubymidwest.com' />
                   <input id='submit' type='submit' value='Submit' />
                 </form>
               </div>
