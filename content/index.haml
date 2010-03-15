@@ -7,63 +7,36 @@ filter:
 ---
 #left-col.col-1.first
   #welcome.section
-    %h2 July 16th - 17th, 2010
+    %h2 Registration is now open!
+    %p 
+      Get your Early Bird tickets before May 15 and save $25.  That's $75 for a two days of single track goodness!  Register 
+      %a{:target=>'_blank', :href=>'http://rubymidwest.stagehq.com/events/219/booking/new'} HERE 
+      and check out the 
+      %a{:href=>'/travel-and-venue.html'} Travel & Venue 
+      info for hotel accommodations.
+
+    %h3 Dates Set! July 16-17, 2010
+    -# %h2 July 16th - 17th, 2010
     %p Right in the middle of <del>nowhere</del> everything.  Kansas City's growing Ruby community is excited to host its first regional conference!
     %p Ruby Midwest is a <b>two day, single track conference</b> focused on the joy and productivity of Ruby, Rails, & JRuby.
 
-  #registration
-    %h3 Registration Coming Soon
-    %p Early Bird Registration: $75
-    %p General Admission: $100
-  
 
-  -# #speakers.section
-    %h3 Speakers
-    #image_list
-    .content
-      .loader
-        %p 
-          We're looking for speakers. 
-          %a{:class => 'submit-proposal', :href => 'http://spreadsheets.google.com/viewform?formkey=dG1ZTUYyVW5sRFN3U0FFQy1ZaFQwMGc6MA', :rel => 'facebox'} Submit a proposal!
-      
-      -# .speaker
-        -# %img.mugshot{:src => '/images/speakers/thompson.jpg', :alt => 'Phillip Thompson'}
-        -# .desc
-          -# %h5.name Phillip Thompson
-          -# %p Phillip is the bomb. One time his friend dared him to drink a mixture of toothpaste and tomato sauce and he totally did it.
-      
-      -# .speaker
-        -# %img.mugshot{:src => '/images/speakers/johnson.jpg', :alt => 'Randy Johnson'}
-        -# .desc
-          -# %h5.name Randy Johnson
-          -# %p Randy was a MLB pitcher with a funny name. Now he is a retired person with a funny name. He will not be speaking at this conference.
-        
-      .speaker
-        %img.mugshot{:src => '/images/speakers/you.png', :alt => 'Speak at Ruby Midwest'}
-          .desc
-            %h5.name YOU?
-            %p 
-              You should speak at Ruby Midwest. Seriously.
-              %a{:href => '#'} Transmorph yourself into one.
-      .first
+  -# #location
+    -# %h3 Location
+    -# %p
+      -# %strong University of Missouri, Kansas City
+      -# %br
+      -# %strong Pierson Auditorium
+      -# %br
+      -# 5100 Rockhill Rd.
+      -# %br
+      -# Kansas City, MO 64110
 
-
-  #location
-    %h3 Location
-    %p
-      %strong University of Missouri, Kansas City
-      %br
-      %strong Pierson Auditorium
-      %br
-      5100 Rockhill Rd.
-      %br
-      Kansas City, MO 64110
-
-    %iframe{ :scrolling => "no", :marginheight => "0", :marginwidth => "0", :src => "http://www.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=5000+Holmes,+Kansas+City,+Missouri-64110&amp;sll=37.0625,-95.677068&amp;sspn=53.167773,78.75&amp;ie=UTF8&amp;hq=&amp;hnear=5000+Holmes+St,+Kansas+City,+Jackson,+Missouri+64110&amp;ll=39.03732,-94.575977&amp;spn=0.012,0.036993&amp;z=14&amp;output=embed", :frameborder => "0", :height => "180", :width => "430" }
-    %br
-    %small
-      %a{ :href => "http://www.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=5000+Holmes,+Kansas+City,+Missouri-64110&amp;sll=37.0625,-95.677068&amp;sspn=53.167773,78.75&amp;ie=UTF8&amp;hq=&amp;hnear=5000+Holmes+St,+Kansas+City,+Jackson,+Missouri+64110&amp;ll=39.03732,-94.575977&amp;spn=0.012,0.036993&amp;z=14", :style => "color:#0000FF;text-align:left" }
-        View Larger Map
+    -# %iframe{ :scrolling => "no", :marginheight => "0", :marginwidth => "0", :src => "http://www.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=5000+Holmes,+Kansas+City,+Missouri-64110&amp;sll=37.0625,-95.677068&amp;sspn=53.167773,78.75&amp;ie=UTF8&amp;hq=&amp;hnear=5000+Holmes+St,+Kansas+City,+Jackson,+Missouri+64110&amp;ll=39.03732,-94.575977&amp;spn=0.012,0.036993&amp;z=14&amp;output=embed", :frameborder => "0", :height => "180", :width => "430" }
+    -# %br
+    -# %small
+      -# %a{ :href => "http://www.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=5000+Holmes,+Kansas+City,+Missouri-64110&amp;sll=37.0625,-95.677068&amp;sspn=53.167773,78.75&amp;ie=UTF8&amp;hq=&amp;hnear=5000+Holmes+St,+Kansas+City,+Jackson,+Missouri+64110&amp;ll=39.03732,-94.575977&amp;spn=0.012,0.036993&amp;z=14", :style => "color:#0000FF;text-align:left" }
+        -# View Larger Map
 
 
 = render :partial => "right_bar"
