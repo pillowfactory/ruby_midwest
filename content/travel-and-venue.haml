@@ -5,7 +5,7 @@ filter:
   - erb
   - haml
 ---
-#left-col.col-1.first
+#left-col.col-1.first{:style => 'padding-top:2.5em;'}
   #hotel
     %h2 Hotel
     %p
@@ -39,17 +39,37 @@ filter:
       %em Let us know if the hotel is out of discounted rooms. We can probably add more rooms to the conference blocks.
   
   %br
+  -# #travel
+    -# %h2 Travel
+    -# %ul
+      -# %li
+        -# %strong Planes:
+        -# %a{:target=>'_blank', :href => 'http://www.flykci.com'} Kansas City International - MCI
+      -# %li
+        -# %strong Trains:
+        -# %a{:target=>'_blank', :href => 'http://www.amtrak.com/servlet/ContentServer?c=am2Station&pagename=am%2Fam2Station%2FStation_Page&p=1237405732508&cid=1229726268773'} Amtrak
+      -# %li
+        -# %strong Automobiles:
+        -# %ul
+          -# %li 
+            -# %a{:target=>'_blank', :href => 'http://maps.google.com/maps?f=d&source=s_d&saddr=Kansas+City+International+Airport,+Kansas+City,+MO+64153+(Kansas+City+International+Airport)&daddr=+4445+Main+Street+%23+Kansas+City,+Missouri+64111&hl=en&geocode=FUWiVwIdzsda-indTM6gC17AhzEU1vb398U7jQ%3B&mra=ls&sll=39.176255,-94.63655&sspn=0.324164,0.694199&ie=UTF8&z=11'} Airport to hotel
+          -# %li 
+            -# Airport to hotel via 
+            -# %a{:target=>'_blank', :href => 'http://www.supershuttle.com/'} Shuttle 
+            -# ($18 one way)
+          -# %li 
+            -# Your house to hotel - 
+            -# %a{:blank=>'_blank', :href => 'http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=4445+Main+Street+%23+Kansas+City,+Missouri+64111&sll=39.046369,-94.583616&sspn=0.010149,0.021694&ie=UTF8&hq=&hnear=4445+Main+St,+Kansas+City,+Jackson,+Missouri+64111&ll=39.046952,-94.586642&spn=0.010149,0.021694&z=16'} Ask Google
+    
+-# = render :partial => "right_bar"
+
+#right-col.col-1
   #travel
     %h2 Travel
     %ul
       %li
         %strong Planes:
         %a{:target=>'_blank', :href => 'http://www.flykci.com'} Kansas City International - MCI
-      %li
-        %strong Trains:
-        %a{:target=>'_blank', :href => 'http://www.amtrak.com/servlet/ContentServer?c=am2Station&pagename=am%2Fam2Station%2FStation_Page&p=1237405732508&cid=1229726268773'} Amtrak
-      %li
-        %strong Automobiles:
         %ul
           %li 
             %a{:target=>'_blank', :href => 'http://maps.google.com/maps?f=d&source=s_d&saddr=Kansas+City+International+Airport,+Kansas+City,+MO+64153+(Kansas+City+International+Airport)&daddr=+4445+Main+Street+%23+Kansas+City,+Missouri+64111&hl=en&geocode=FUWiVwIdzsda-indTM6gC17AhzEU1vb398U7jQ%3B&mra=ls&sll=39.176255,-94.63655&sspn=0.324164,0.694199&ie=UTF8&z=11'} Airport to hotel
@@ -57,10 +77,14 @@ filter:
             Airport to hotel via 
             %a{:target=>'_blank', :href => 'http://www.supershuttle.com/'} Shuttle 
             ($18 one way)
-          %li 
-            Your house to hotel - 
-            %a{:blank=>'_blank', :href => 'http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=4445+Main+Street+%23+Kansas+City,+Missouri+64111&sll=39.046369,-94.583616&sspn=0.010149,0.021694&ie=UTF8&hq=&hnear=4445+Main+St,+Kansas+City,+Jackson,+Missouri+64111&ll=39.046952,-94.586642&spn=0.010149,0.021694&z=16'} Ask Google
-    
+
+      %li
+        %strong Trains:
+        %a{:target=>'_blank', :href => 'http://www.amtrak.com/servlet/ContentServer?c=am2Station&pagename=am%2Fam2Station%2FStation_Page&p=1237405732508&cid=1229726268773'} Amtrak
+      %li
+        %strong Automobiles:
+        %a{:blank=>'_blank', :href => 'http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=4445+Main+Street+%23+Kansas+City,+Missouri+64111&sll=39.046369,-94.583616&sspn=0.010149,0.021694&ie=UTF8&hq=&hnear=4445+Main+St,+Kansas+City,+Jackson,+Missouri+64111&ll=39.046952,-94.586642&spn=0.010149,0.021694&z=16'} Ask Google
+
   #location
     %h2 Venue
     %p
@@ -75,8 +99,6 @@ filter:
     %small
       %a{ :href => "http://www.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=5000+Holmes,+Kansas+City,+Missouri-64110&amp;sll=37.0625,-95.677068&amp;sspn=53.167773,78.75&amp;ie=UTF8&amp;hq=&amp;hnear=5000+Holmes+St,+Kansas+City,+Jackson,+Missouri+64110&amp;ll=39.03732,-94.575977&amp;spn=0.012,0.036993&amp;z=14", :style => "color:#0000FF;text-align:left" }
         View Larger Map
-  %br
-= render :partial => "right_bar"
 
 .first
 
