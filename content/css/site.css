@@ -38,7 +38,6 @@ p {
 
 a {
   color: #fff;
-  text-decoration: none;
 }
 
 a:hover {
@@ -85,15 +84,22 @@ a img {
   text-shadow: #556e74 0 2px 1px;
   position: relative;
   top: -1px;
+  text-decoration: none;
 }
 #nav ul li a:hover {
-  top: 0;
   text-decoration: none;
   color: #c2e9ed;
   background-color: rgba(0,0,0,.1);
   text-shadow: none;  
   -webkit-transition-porperty: top, color, background-color, text-shadow;
   -webkit-transition-duration: .1s;     
+}
+#nav ul li a.current {
+  text-decoration: none;
+  background-color: rgba(0,0,0,.1);
+  text-shadow: none;  
+  -webkit-transition-porperty: top, color, background-color, text-shadow;
+  -webkit-transition-duration: .1s; 
 }
 
 h1#rmw a {
@@ -219,6 +225,7 @@ div.section {
   line-height: 45px;
   padding-left: 50px;
   width: 162px;
+  text-decoration: none;
 }
 
 #info {
