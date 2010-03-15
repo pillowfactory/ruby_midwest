@@ -17,8 +17,9 @@ body {
   margin: 1em 0;
 }
 #master {
-  background: url(../images/bg.jpg);  
+  background: url(../images/clouds.jpg);  
   padding: 20px 0 0 0;
+  background-attachment: fixed;
 }
 h1, h2, h3, h4 {
   margin: .3em 0;
