@@ -254,6 +254,10 @@ div.section {
   font-style: normal;    
 }
 
+#venue {
+  border: 6px solid #666;
+}
+
 #lower {  
   border-top: 10px solid rgba(67,112,131,0.34);
   padding: 0;
