@@ -33,12 +33,15 @@ filter:
     #location
       %h2 Venue
       %p
-        %strong University of Missouri, Kansas City, Pierson Auditorium
-        %br
-        5100 Rockhill Rd.
-        %br
-        Kansas City, MO 64110
-        %br
+        %div{:class => "vcard"}
+          %div{:class => "org"}University of Missouri, Kansas City, Pierson Auditorium
+          %div{:class => "adr"}
+            %div{:class => "street-address"}5100 Rockhill Rd.
+            %span{:class => "locality"}Kansas City
+            , 
+            %span{:class => "region"}MO
+            %span{:class => "postal-code"}64110
+
         %small
           %a{ :href => "http://www.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=5000+Holmes,+Kansas+City,+Missouri-64110&amp;sll=37.0625,-95.677068&amp;sspn=53.167773,78.75&amp;ie=UTF8&amp;hq=&amp;hnear=5000+Holmes+St,+Kansas+City,+Jackson,+Missouri+64110&amp;ll=39.03732,-94.575977&amp;spn=0.012,0.036993&amp;z=14", :style => "color:#0000FF;text-align:left" } View Map
           
@@ -51,26 +54,32 @@ filter:
     #hotel
       %h2 Hotel
       %p
-        %strong Kansas City Marriott Country Club Plaza
-        %a{:target => '_blank', :href => 'http://www.marriott.com/hotels/travel/mcipl-kansas-city-marriott-country-club-plaza/?toDate=7/17/10&groupCode=rubruba&fromDate=7/15/10&app=resvlink'} (link)
-        %br
-        %strong 4445 Main Street
-        %br
-        %strong Kansas City, Missouri 64111
-        %br
-        %br
-        %em The newly renovated Kansas City Marriott Country Club Plaza hotel overlooks the 
-        %a{:target=>'_blank', :href=>'http://www.countryclubplaza.com/'} Country Club Plaza
-        ; the sophisticated center of Kansas City's dining, shopping and cultural scene.
-        %br
-        %br
-        As the "official" conference hotel, we have a special discounted rate of 
-        %strong $99 per night 
-        worked out for all reservations made on or before June 24, 2010. The hotel is also offering 
-        %strong free parking and shuttle service 
-        to the venue for conference guests.
-        %br
-        %br
+        %img{:src => "/images/Marriott_Country_Club_Plaza_Kansas_City_MO.jpg", :alt => "Marriott Country Club Plaza Kansas_City, MO", :id => "hotel_image"}
+
+        %div{:class => "vcard"}
+          %a{:class => "url fn", :href => "http://www.marriott.com/hotels/travel/mcipl-kansas-city-marriott-country-club-plaza/?toDate=7/17/10&groupCode=rubruba&fromDate=7/15/10&app=resvlink"}
+          %div{:class => "org"}Kansas City Marriott Country Club Plaza
+          %div{:class => "adr"}
+            %div{:class => "street-address"}4445 Main Street
+            %span{:class => "locality"}Kansas City
+            , 
+            %span{:class => "region"}MO
+            %span{:class => "postal-code"}64111              
+
+          %p
+            %em The newly renovated Kansas City Marriott Country Club Plaza hotel overlooks the 
+            %a{:target=>'_blank', :href=>'http://www.countryclubplaza.com/'} Country Club Plaza
+            ; the sophisticated center of Kansas City's dining, shopping and cultural scene.
+
+          %p
+            As the "official" conference hotel, we have a special discounted rate of 
+            %strong $99 per night 
+            worked out for all reservations made on or before June 24, 2010. The hotel is also offering 
+            %strong free parking and shuttle service 
+            to the venue for conference guests.
+            %br
+            %br
+
         %strong Make your reservations
         %ul
           %li 

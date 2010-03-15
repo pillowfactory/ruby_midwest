@@ -258,6 +258,17 @@ div.section {
   border: 6px solid #666;
 }
 
+.org {
+  font-weight: bold;
+}
+
+#hotel_image {
+  border:5px solid #999999;
+  float:left;
+  margin: 0 10px 5px 0px;
+  width: 150px;
+}
+
 #lower {  
   border-top: 10px solid rgba(67,112,131,0.34);
   padding: 0;
