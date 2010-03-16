@@ -62,7 +62,7 @@ a img {
   font-weight: bold;
   background: rgba(67,112,131,0.34);
   position: relative;
-  z-index: 500;
+  z-index: 1;
   float: right;
   padding: 0 10px 5px 10px;
   margin: 0 20px 0 0;
