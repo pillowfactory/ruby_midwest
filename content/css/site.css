@@ -62,7 +62,7 @@ a img {
   font-weight: bold;
   background: rgba(67,112,131,0.34);
   position: relative;
-  z-index: 1;
+  z-index: 22;
   float: right;
   padding: 0 10px 5px 10px;
   margin: 0 20px 0 0;
@@ -106,7 +106,7 @@ a img {
 h1#rmw a {
   display: block;
   position: relative;
-  z-index: 100;
+  z-index: 10;
   width: 772px;
   height: 329px;
   margin: 0 auto;
