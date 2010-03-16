@@ -336,6 +336,18 @@ div.section {
 #sponsors img{
   margin-right: 5px;
 }
+
+.organizer {
+  clear:both;
+}
+.organizer img, .organizer div {
+  float:left;
+}
+.organizer img {
+  padding-right:1em;
+  padding-bottom:1em;
+}
+
 /*#footer {
 
   height: 300px;
