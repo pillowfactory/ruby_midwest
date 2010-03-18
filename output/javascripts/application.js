@@ -7,7 +7,11 @@ $(function() {
   $('.speaker .mugshot').each(function() {
     var speakerLink = $(this).parent().attr('id');
     var speakerName = $(this).siblings('.desc').children('.name').text();
-    $(this).appendTo('#speakers #image_list').wrap('<a href="#' + speakerLink + '" class="speakerLink"></a>').parent('a').attr('name', speakerName);
+    if (speakerLink == "speaker_2") {
+      $(this).appendTo('#speakers #image_list').wrap('<a href="#' + speakerLink + '" class="speakerLink active"></a>').parent('a').attr('name', speakerName);
+    } else {
+      $(this).appendTo('#speakers #image_list').wrap('<a href="#' + speakerLink + '" class="speakerLink"></a>').parent('a').attr('name', speakerName);
+    }
   });
 
   $('.speakerLink').click(function() {
