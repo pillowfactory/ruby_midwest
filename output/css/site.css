@@ -333,8 +333,16 @@ div.section {
   vertical-align: middle;
 }
 
+#sponsors {
+  text-align: center;
+}
+
 #sponsors img{
-  margin-right: 5px;
+  margin: 10px;
+}
+
+#engine_yard_logo {
+  height: 125px;
 }
 
 .organizer {
@@ -352,3 +360,4 @@ div.section {
 
   height: 300px;
 }*/
+
