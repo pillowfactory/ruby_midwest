@@ -337,6 +337,10 @@ div.section {
   text-align: center;
 }
 
+#sponsors h3 {
+  text-align: left;
+}
+
 #sponsors img{
   margin: 10px;
 }
