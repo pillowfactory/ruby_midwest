@@ -10,6 +10,49 @@ filter:
 #content.container
   #single-col{:style => 'padding-top:2.5em;padding-bottom:10em;'}
     .session
+      %h2.first
+        Keynote Speakers
+      %h3.speaker-title.first
+        Yehuda Katz
+      %p.abstract
+        %img{:src=>'/images/speakers/yahuda-katz.jpg', :width=>66, :height=>80, :alt=>'Yahuda Katz'}
+        Yehuda Katz is currently employed by
+        %a{ :href => "http://www.engineyard.com/" }
+          Engine Yard
+        , and works full time as a Core Team Member on the Rails project. He is the co-author of
+        %a{ :href => "http://www.manning.com/affiliate/idevaffiliate.php?id=485_93" }
+          jQuery in Action
+        and the upcoming
+        %a{ :href => "http://www.manning.com/affiliate/idevaffiliate.php?id=485_145" }
+          Rails 3 in Action
+        , and is a contributor to
+        %a{ :href => "http://www.manning.com/affiliate/idevaffiliate.php?id=485_96" }
+          Ruby in Practice
+        \.
+        He spends most of his time hacking on Rails, but also on other Ruby community projects, like
+        %a{ :href => "http://rubini.us/" }
+          Rubinius
+        and
+        %a{ :href => "http://datamapper.org/" }
+          Datamapper
+        \. And when the solution doesn't yet exist, he'll try his hand at creating one - as such, he's also created projects like
+        %a{ :href => "http://github.com/wycats/thor/" }
+          Thor
+        and
+        %a{ :href => "http://github.com/sam/do" }
+          DO.rb
+        \.
+      %h3.speaker-title
+        Chris Wanstrath
+      %p.abstract
+        %img{:src=>'/images/speakers/chris-wanstrath.jpg', :width=>66, :height=>80, :alt=>'Chris Wanstrath'}        
+        Chris Wanstrath is a George R R Martin fan who lives in San Francisco
+        and cofounded GitHub. He's an active open source developer and speaker
+        whose projects and talks can be found at
+        %a{ :href => "http://chriswanstrath.com" }
+          http://chriswanstrath.com    
+      %h2
+        General Speakers
       %h3.speaker-title.first A New Set Of Wheels: Leveraging Ruby For System Administration 
       %p.abstract
         %img{:src=>'/images/speakers/joshua-french.jpg', :width=>66, :height=>80, :alt=>'Joshua French'}

@@ -382,11 +382,18 @@ div.section {
 .session{
   padding-left: 80px;
 }
-.session h3{
+
+.session h2, .session h3{
   margin-left: -80px;
-  padding-top: 1.5em;
 }
-.session h3.first{
+.session h2{
+  padding-top: 3em;
+  border-bottom: thin solid #aaa;  
+}
+.session h3{
+  padding-top: 1.5em;  
+}
+.session .first{
   padding-top: 0.3em;
 }
 .strike {
