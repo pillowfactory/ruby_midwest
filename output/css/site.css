@@ -364,4 +364,31 @@ div.section {
 
   height: 300px;
 }*/
+.abstract img{
+  float: left;
+  margin:0 10px 5px -80px;
+  padding-top:5px;
+}
+.abstract img.second-speaker{
+  margin-top: 90px;
+}
+.speaker-name{
+  font-weight: bold;
+}
+.speaker-title{
+  clear:left;
+}
 
+.session{
+  padding-left: 80px;
+}
+.session h3{
+  margin-left: -80px;
+  padding-top: 1.5em;
+}
+.session h3.first{
+  padding-top: 0.3em;
+}
+.strike {
+  text-decoration: line-through;
+}

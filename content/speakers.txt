@@ -8,233 +8,174 @@ filter:
 = render :partial => "navigation", :locals => {:current => 'speakers'}
 
 #content.container
-  #single-col{:style => 'padding-top:2.5em;'}
-    #speakers-list
-      %dl
-        %dt Adam McCrea
-        %dd.proposal-title jQuery and Rails, Sitting in a Tree
-        %dd.abstract 
-          %p Maybe you've played with jQuery a little bit but still don't feel comfortable with it, or maybe you've only heard about it. Either way, it doesn't take long to learn enough to be dangerous. While jQuery can be intimidating at first, it's based on some very simple principles. Once you grasp those principles, your JavaScript life will never be the same. 
-          %p This talk will focus mostly on jQuery itself, but I'll also hit the basics on how to make the most of jQuery in your Rails apps.  I'll cover the relevant changes in Rails 3, and why you don't need Rails 3 to take advantage of those changes.  By the end of this talk, you'll be easily navigating and manipulating the DOM, writing your own plugins, and of course, amazing your friends with the power and elegance of jQuery.
-        %dd.bio 
-          %p Adam McCrea is the logician at EdgeCase in Columbus, Ohio. A strong believer in the power of small, he loves working for a small company and working with simple but powerful tools. He has been developing web applications for seven years and has presented on JavaScript and Ruby on Rails at eRubyCon, CodeMash, and the Columbus Ruby Brigade.
-          %p Adam's passions include creating intuitive user interfaces, mastering the Ruby Way, and showing fellow developers that JavaScript can be elegant and fun. He is also a husband, father, and all-around swell guy.  
-        %dt Alex Sharp
-        %dd.proposal-title Practical Ruby Projects with MongoDB
-        %dd.abstract 
-          %p While there is a lot of excitement surrounding MongoDB and the NoSQL movement, MongoDB is all about practicality. MongoDB boasts a robust feature set that provides a pragmatic blend of rich functionality, performance and scalability that today's software developers need, and all at a relatively low barrier to entry. 
-          %p The first part of this talk will focus on the pragmatic justifications for integrating MongoDB into your stack. In short, Mongo's significant performance and scalability benefits matched with a robust feature set provide the flexibility and power needed to smoothly integrate into an existing stack.
-          %p Building off of the first part of this talk, the main part of this talk will highlight some common and practical uses for MongoDB, given it's rich feature set, high level of performance and it's philosophy. 
-          %p Among the projects we'll cover are logging with capped collections, data warehousing for reporting or analytics, and building lightweight, single-purpose ruby applications around a MongoDB collection. We'll also cover more full-featured applications, including a simple accounting application, and the traditional blogging app. 
-          %p The goal in discussing each one of these applications is to highlight a different part Mongo's feature set to show how pragmatic it can be to integrate MongoDB into your stack. By the end of this talk, you will have a solid grasp on Mongo's rich feature set, and why it makes sense in so many situations. 
-        %dd.bio 
-          %p Alex has been working with Ruby and Rails since September of 2007. He is currently working as the Lead Software Developer at OptimisCorp, a health care startup that builds innovative electronic medical records systems. 
-          %p Before discovering Ruby, Alex spent the better part of three years trapped in the ninth circle of hell (writing PHP).
-          %p In addition to a deep love of Ruby and an infatuation with the art of refactoring, Alex loves to snowboard. He currently lives in sunny Los Angeles, CA.   
-        %dt Aman Gupta & Joe Damato
-        %dd.proposal-title memprof: the ruby level memory profiler
-        %dd.abstract 
-          %p Ever wondered why your ruby script uses so much RAM? Tired of having god restart your rails app every few hours?
-          %p This talk will introduce memprof, a ruby level memory profiler. We'll demo memprof on a variety of real-world examples, including some popular open source projects. Along the way, we'll learn how the ruby VM manages memory, why garbage collection has such a large impact on ruby's performance and some common ways to reduce the memory impact of your ruby applications. 
-        %dd.bio 
-          %p Aman `tmm1` Gupta, San Francisco, CA 
-          %p Aman is a serial entrepreneur, ruby hacker and a recent winner of a Ruby Heroes award. He currently maintains the EventMachine project and various other gems that help build high-performance distributed and asynchronous systems in ruby, including em-mysql, em-spec, jsSocket and amqp.
-          %p Most recently, Aman has been hacking on performance improvements to MRI, and tools for the VM such as perftools.rb, a sampling profiler for ruby code based on google-perftools, and gdb.rb, a MRI specific version of gdb.
-          %p Joe `ice799` Damato
-          %p Joe Damato is a systems hacker who focuses on the low level implications of Ruby including I/O, performance, testing, and scaling. He maintains a blog (http://timetobleed.com) where he releases code, patches to the Ruby interpreter, and his thoughts about low level systems programming. Joe wrote memprof (http://github.com/ice799/memprof), a Ruby level memory profiler that helps users track reference leaks in their applications. He has submitted a few patches to Ruby core, the most interesting of which are several bug-fixes and speed boosts to the threading implementation in Ruby 1.8 and a Fibers implementation for Ruby 1.8 that he worked on with Aman Gupta.  
-        %dt Brandon Dimcheff
-        %dd.proposal-title Metawhat?  A look into the mysterious metaclass
-        %dd.abstract 
-          %p If you've ever seen "class << self" in somebody's code and wondered what the heck is going on behind the scenes, you're not alone.  What you've stumbled upon is the ever-elusive metaclass (or eigenclass, or singelton class... take your pick).  The metaclass is often a point of confusion at first, but this is mostly just because Ruby tries its darndest to hide it from you.  In this session, I will show you what's really going on with metaclasses, and how they make Ruby great.  By the end of the session, you will understand how simple and elegant using metaclasses can be.
-        %dd.bio 
-          %p Brandon Dimcheff has been using Ruby for real work for 5 years, beginning with Rails and then diving into the Ruby world as a whole.  He is co-owner of Radberry, an Ann Arbor, Michigan based consultancy.  He been on the Great Lakes Ruby Bash team for the past two conferences, and helps run the Ann Arbor Ruby Brigade.  He lives in Ann Arbor with his fiancee, who will hopefully be his wife by the time you read this.  
-        %dt Charles Nutter
-        %dd.proposal-title jRuby
-        %dd.abstract 
-          %p Charles Nutter
-        %dd.bio 
+  #single-col{:style => 'padding-top:2.5em;padding-bottom:10em;'}
+    .session
+      %h3.speaker-title.first A New Set Of Wheels: Leveraging Ruby For System Administration 
+      %p.abstract
+        %img{:src=>'/images/speakers/joshua-french.jpg', :width=>66, :height=>80, :alt=>'Joshua French'}
+        %span.speaker-name Joshua French &ndash;
+      %h4 Problem:
+      %p.abstract As a system administrator, you spend too much time working on your  laundry list of tasks to keep everything a float.  You need to find  ways to "glue" together the holes in your sinking ship.
+      %h4 Solution:
+      %p.abstract First, identify the problem areas.  Next, see what is out there to  help you get your task done.  Accept that not every solution out there does exactly what you want.  Finally, start rolling your  own solutions, in Ruby, where they make sense.
+      %h4 Conclusion:
+      %p.abstract Understand that, while Ruby is not the silver bullet for all your  system administration needs, it does suffice in many areas and  speeds up development of the seemingly endless pile of scripts  needed to stay on top of things.  The key is to not be afraid to  reinvent a wheel here or there to get a better ride.  
+      %h3.speaker-title Civic Hacking 
+      %p.abstract
+        %img{:src=>'/images/speakers/luigi-montanez.jpg', :width=>66, :height=>80, :alt=>'Luigi Montanez'}
+        %span.speaker-name Luigi Montanez &ndash;
+        How can Ruby change cities, states, and countries for the better? Last year, we saw an explosion of interest around government transparency. The Open Government movement, spearheaded by open source developers, seeks to make government more accountable and responsible by turning open government data into citizen-focused, civic-minded applications.
+      %p.abstract Luigi Montanez, a Ruby developer with the Sunlight Labs, will guide you through the Gov 2.0 landscape. You'll learn about the data sets and APIs available freely available for your use, the tools and skills you'll need to be a successful civic hacker, and you'll get a thorough overview of the current civic apps out there. Civic hacking will enhance your open source portfolio while making a difference in your community and country.  
+      %h3.speaker-title Cooking 101 - Getting Started with Chef 
+      %p.abstract
+        %img{:src=>'/images/speakers/john-williams.jpg', :width=>66, :height=>80, :alt=>'John Williams'}
+        %span.speaker-name John Williams &ndash;
+        The complex nature of application deployment can make configuration management challenging. As you scale your applications by adding more servers the complexity continues to grow, making a headache for even the most experienced systems administrators.
+      %p.abstract Chef is a Ruby based open source systems integration framework for managing servers. Using Chef within your infrastructure is economical, scalable and efficient, allowing you to do more with less. Chef lets you manage your servers by writing code, not running commands.
+      %p.abstract In this session we will cover:
+      %ul
+        %li Chef Concepts
+        %li Installation
+        %li Creating a Chef Repository
+        %li Your First Cookbook (and its components)
+        %li Chef Nodes, Clients and Roles
+        %li Chef Indexes
+        %li Executables - Chef Server, Chef Indexer, Chef Client and Chef Solo
+        %li Anatomy of a Chef Run
+      %h3.speaker-title Integration Testing Strategies: Locally and on the Grid 
+      %p.abstract
+        %img{:src=>'/images/speakers/kyle-ginavan.jpg', :width=>66, :height=>80, :alt=>'John Williams'}
+        %span.speaker-name Kyle J. Ginavan, Ryan Felton &ndash;
+        An efficient &amp; effective development ecosystem requires thorough testing. The purpose of integration testing is to verify functional, performance, and reliability requirements placed on major design items. Functional and unit tests are an excellent start, however, bugs emerge when not testing the application as a whole.  Ryan Felton will begin with a walk through of local integration testing strategies using Capybara gem, which utilizes Selenium Webdriver, to open you web browser, navigate the specified web page, and verify functionality via simple webrat syntax. The second part of this talk will be lead by Kyle Ginavan discussing the short comings of this approach and how to preform multi-browser cross platform integration testing via the <a href="http://www.seleniumshots.com">Selenium Shots</a> integration testing service  
+      %h3.speaker-title jQuery and Rails, Sitting in a Tree 
+      %p.abstract
+        %img{:src=>'/images/speakers/adam-mccrea.jpg', :width=>66, :height=>80, :alt=>'Adam McCrea'}
+        %span.speaker-name Adam McCrea &ndash;
+        Maybe you've played with jQuery a little bit but still don't feel comfortable with it, or maybe you've only heard about it. Either way, it doesn't take long to learn enough to be dangerous. While jQuery can be intimidating at first, it's based on some very simple principles. Once you grasp those principles, your JavaScript life will never be the same. 
+      %p.abstract This talk will focus mostly on jQuery itself, but I'll also hit the basics on how to make the most of jQuery in your Rails apps.  I'll cover the relevant changes in Rails 3, and why you don't need Rails 3 to take advantage of those changes.  By the end of this talk, you'll be easily navigating and manipulating the DOM, writing your own plugins, and of course, amazing your friends with the power and elegance of jQuery.  
+      %h3.speaker-title jRuby 
+      %p.abstract
+        %img{:src=>'/images/speakers/charles-nutter.jpg', :width=>66, :height=>80, :alt=>'Charles Nutter'}
+        %span.speaker-name Charles Nutter &ndash;
+        jRuby  
+      %h3.speaker-title Memprof: the ruby level memory profiler 
+      %p.abstract
+        %img{:src=>'/images/speakers/aman-gupta.jpg', :width=>66, :height=>80, :alt=>'Aman Gupta'}
+        %span.speaker-name Aman Gupta &amp; Joe Damato &ndash;
+        Ever wondered why your ruby script uses so much RAM? Tired of having god restart your rails app every few hours?
+      %p.abstract This talk will introduce memprof, a ruby level memory profiler. We'll demo memprof on a variety of real-world examples, including some popular open source projects. Along the way, we'll learn how the ruby VM manages memory, why garbage collection has such a large impact on ruby's performance and some common ways to reduce the memory impact of your ruby applications.   
+      %h3.speaker-title Metawhat?  A look into the mysterious metaclass 
+      %p.abstract
+        %img{:src=>'/images/speakers/brandon-dimcheff.jpg', :width=>66, :height=>80, :alt=>'Brandon Dimcheff'}
+        %span.speaker-name Brandon Dimcheff &ndash;
+        If you've ever seen "class &lt;&lt; self" in somebody's code and wondered what the heck is going on behind the scenes, you're not alone.  What you've stumbled upon is the ever-elusive metaclass (or eigenclass, or singelton class... take your pick).  The metaclass is often a point of confusion at first, but this is mostly just because Ruby tries its darndest to hide it from you.  In this session, I will show you what's really going on with metaclasses, and how they make Ruby great.  By the end of the session, you will understand how simple and elegant using metaclasses can be.  
+      %h3.speaker-title Mobile Safari Apps 
+      %p.abstract
+        %span.speaker-name Steven Bristol &ndash;
+        This talk will demonstrate a few librarys that are meant to make it easy to create mobile safari apps that closely resemble full applications. It will talk about the pros and cons of each and show how easy it is to make them from rails.  
+      %h3.speaker-title Object Oriented, Unobtrusive CSS 
+      %p.abstract
+        %img{:src=>'/images/speakers/john-hwang.jpg', :width=>66, :height=>80, :alt=>'John Hwang'}
+        %span.speaker-name John Hwang &ndash;
+        To quote Eric Meyer, "Semantic Frameworks are a game-changer." Meta CSS frameworks like SASS, lessCSS, and xCSS are revolutionizing the way we write and manage modern, semantic CSS. With features such as variables, mixins, nested rules and operations, these meta frameworks brings us closer to write our CSS in an object oriented way.  They incorporate CSS frameworks such as Blueprint, Grid960, and YUI and bring together the best of grid design, CSS reset techniques and browser hacks in an unobtrusive and semantic way.  Ultimately, these meta frameworks allow us to develop truly semantic websites that are not only maintainable and fun to develop.  This talk with discuss CSS systems, meta frameworks, and best practices for writing object oriented, unobtrusive semantic code.  
+      %h3.speaker-title Practical Ruby Projects with MongoDB 
+      %p.abstract
+        %img{:src=>'/images/speakers/alex-sharp.jpg', :width=>66, :height=>80, :alt=>'Alex Sharp'}
+        %span.speaker-name Alex Sharp &ndash;
+        While there is a lot of excitement surrounding MongoDB and the NoSQL movement, MongoDB is all about practicality. MongoDB boasts a robust feature set that provides a pragmatic blend of rich functionality, performance and scalability that today's software developers need, and all at a relatively low barrier to entry. 
+      %p.abstract The first part of this talk will focus on the pragmatic justifications for integrating MongoDB into your stack. In short, Mongo's significant performance and scalability benefits matched with a robust feature set provide the flexibility and power needed to smoothly integrate into an existing stack.
+      %p.abstract Building off of the first part of this talk, the main part of this talk will highlight some common and practical uses for MongoDB, given it's rich feature set, high level of performance and it's philosophy. 
+      %p.abstract Among the projects we'll cover are logging with capped collections, data warehousing for reporting or analytics, and building lightweight, single-purpose ruby applications around a MongoDB collection. We'll also cover more full-featured applications, including a simple accounting application, and the traditional blogging app. 
+      %p.abstract The goal in discussing each one of these applications is to highlight a different part Mongo's feature set to show how pragmatic it can be to integrate MongoDB into your stack. By the end of this talk, you will have a solid grasp on Mongo's rich feature set, and why it makes sense in so many situations.   
+      %h3.speaker-title Pragmatic Guide to Git 
+      %p.abstract
+        %img{:src=>'/images/speakers/travis-swicegood.jpg', :width=>66, :height=>80, :alt=>'Travis Swicegood'}
+        %span.speaker-name Travis Swicegood &ndash;
+        Git is hard; at least if you listen to the naysayers.  Actually, you need to know a handful of commands to navigate Git successfully.  This talk demystifies Git.  Once we're finished you'll know everything you need to start using Git in your day-to-day projects and collaboratively with other developers.  
+      %h3.speaker-title Real World Rails: Migrating Legacy Data 
+      %p.abstract
+        %img{:src=>'/images/speakers/rob-kaufman.jpg', :width=>66, :height=>80, :alt=>'Rob Kaufman'}
+        %img{:src=>'/images/speakers/patrick-crowley.jpg', :width=>66, :height=>80, :alt=>'Patrick Crowley', :class=>"second-speaker"}
+        %span.speaker-name Rob Kaufman &amp; Patrick Crowley &ndash;
+        Rob Kaufman and Patrick Crowley from San Diego Ruby will demonstrate how to make legacy data migration simple, easy, and repeatable; allowing developers to seed new apps with existing data very early in the development process and fine-tune migrations right up until it's time to launch.
+      %h4 Legacy migration basics
+      %ul
+        %li Adding a legacy database adapter
+        %li Setting up legacy models
+        %li Mapping legacy fields to existing model attributes
+        %li Building migration rake tasks
+        %li Using helper methods to reformat data
+      %h4 Advanced migrations
+      %ul
+        %li Text encoding issues
+        %li Non-relational stores (CSV, XML, wikis, etc.)
+        %li MsSQL and other databases
+      %h4 Deployment strategies
+      %ul
+        %li Migrating in production on a typical Rails host
+        %li Migrating for Heroku users
+      %h3.speaker-title Redis: Persistence Power 
+      %p.abstract
+        %img{:src=>'/images/speakers/nick-quaranto.jpg', :width=>66, :height=>80, :alt=>'Nick Quaranto'}
+        %span.speaker-name Nick Quaranto &ndash;
+        Explaining Redis is tough, it’s easy to say “a data structures server” or “memcached on steroids” or something more jargon filled. The biggest selling point of Redis is that usually as programmers we have to bend our data into a table or document to save it, but with Redis we can persist data as we conceptually visualize it. We'll go over the basics of Redis, how to use it with your Ruby applications, and some real use cases.  
+      %h3.speaker-title Ruby Techniques By Example 
+      %p.abstract
+        %img{:src=>'/images/speakers/jeremy-evans.jpg', :width=>66, :height=>80, :alt=>'Jeremy Evans'}
+        %span.speaker-name Jeremy Evans &ndash;
+        Many presentations focus on showing off new applications and libraries. They show you what has been accomplished, but rarely do they show you how. This presentation will take examples from production code (mainly from Sequel), showing techniques that you can use in your own code. Some of the techniques demonstrated will relate to:
+      %ul
+        %li Creating more easily extensible code
+        %li Handling class-level data within inheritance hierarchies
+        %li Improving dynamically defined method performance safely
+        %li Structuring DSL implementations
+        %li Presenting multiple backends as one  
+      %h3.speaker-title Surviving the last 20%: Indispensable real-world tips and techniques for Facebook development that pick up where Facebook gems and plugins leave off. 
+      %p.abstract
+        %img{:src=>'/images/speakers/mark-daggett.jpg', :width=>66, :height=>80, :alt=>'Mark Daggett'}
+        %span.speaker-name Mark Daggett &ndash;
+      %h4 Description
+      %p.abstract Tools like Facebooker make Facebook development seductively simple, and they will get you 80% done. Unfortunately, the last 20% can be a brutal death gauntlet, where common mistakes, and API ambiguities among others factors leave budgets shattered, developers exhausted and clients frustrated. I will show you how to survive the last 20% using techniques and code refined over the last two years.
+      %h4 Abstract
+      %p.abstract Most programmers have probably had the experience of solving a particularly onerous problem and thinking to themselves “I am glad I never have to solve that again”. Facebook is full of these types of problems, for good reason too. The typical Facebook application has many more integration points in the typical application, and the development environment required for Facebook applications can often seem baroque and restrictive. These limitations have the cumulative effect of making problems hard to identify and harder to solve.
+      %p.abstract Over the last two years I’ve been collecting answers to the problems that occur during the normal course of Facebook application development. I’ve refined most of them into a Rails template that supplements the Facebooker gem, and the other’s I’ve stashed into libs or developer notes I use as needed. This presentation will explore many of these cryptic bugs and reveal the underlying reason for the trouble. Once explained I’ll show how to develop strategies to eliminate or at least mitigate them throughout the app. This presentation will cover mainly Facebook applications, but will touch on FacebookConnect as well. This presentation will be segmented into these subtopics:
+      %ul
+        %li Speeding up Facebook development through Rails templates
+        %li Iframe vs. FBML, choosing the right application type
+        %li Minimizing API calls, though caching and hydrators
+        %li Cheap and easy speed boosts to your Facebook application
+        %li Avoiding common development gotchas in Facebook development.
 
-        %dt Chris Williams
-        %dd.proposal-title The JavaScript Renaissance
-        %dd.abstract 
-          %p Over the last two years, there has been a major renaissance within the programming world within JavaScript (yes, JavaScript). With major industry leaders like Apple, Google, and Microsoft massively funding improvements to the interpreters, JavaScript has seen a resurgence of interest in all forms, including areas you would otherwise think impossible. 5 years ago, you never would have considered JavaScript for a near real-time backend server, but now its at the forefront of most people's mind. This presentation is a survey of some of the most epic parts of this renaissance, including: CoffeeScript, Node.js, and PhoneGap
-        %dd.bio 
-          %p Creator and Curator of JSConf (http://jsconf.us) and co-curator of NoSQL East (http://www.nosqleast.com), Chris has a tenacity for doing things that matter. As co-founder of OurParents (http://www.ourparents.com), he has drastically changed the Senior Care market in little more than a year using a wide array of technologies, including Ruby and JavaScript. He has been known to dabble in the darker sides of programming, but only shows those if specifically requested (or over a good beer). He blogs at http://www.voodootikigod.com and http://www.nakedjavascript.com in hopes that somebody somewhere can learn from his mistakes. He is willing to trade a 5x7 photo of Luke's cat for a local craft brew.  
-        %dt Cory Flanigan
-        %dd.proposal-title Zero to Hero
-        %dd.abstract 
-          %p One determined man's journey from fast food restaurant cashier to agile development leader in <strike>three easy steps</strike> 5 difficult years. My employer, one of the largest privately held media conglomerates in the world, now does development exclusively in Ruby/Rails, using agile methods.  When I started here, waterfall-esque .NET development with no formal process, version control strategy, continuous integration... was the norm. We were losing, big time.  Now, we have all of those things, and are delivering business value faster than ever.  
-          %p I am the technical leader of our development team.  Ruby, Rails, git, and Agile are some of my contributions to the way we do work now.   Five years ago I worked full-time as a cashier at a fast food restaurant, making minimum wage.  My journey did not include graduation from college, a fairy godmother, or some amazing life-changing revelation. 
-          %p My hope is a simple one.  To share hard-earned insights that can help other Rubyists or would-be Rubyists, to recognize and capitalize on potential and opportunity wherever they see it.  Through this insight, I believe they can find greater success, and more joy, in anything they do. 
-        %dd.bio 
-          %p I am a 27 year old agile developer living in Toledo Ohio.  My proudest (Ruby oriented) moments so far have been bringing Ruby, Rails, and agile development to the company where I work, helping to establish a Ruby group in Toledo (Toledo.rb,) and most recently, starting Hack for Haiti, a community of developers working together to leverage software development skills for long-term Haiti relief.    
-        %dt Jake Scruggs
-        %dd.proposal-title The Necessity and Implementation of Speedy Tests
-        %dd.abstract 
-          %p Your project's software practices are deteriorating every minute the developers wait for slow tests to finish. Once developers get fed up and stop running the tests, disregard for failing builds can't be far behind, and from there it's only a short leap to the albatross of a brittle/irrelevant test suite. Luckily this can all be avoided by adopting some time-saving testing standards and practices.
-          %p If everyone knows that test suites should be fast then why do they take so damn long? Some of that is lack of knowledge about what’s fast and what is not, but mostly the problem is lack of awareness of 2 things:
-          %ol
-            %li When you write tests you should be thinking about their speed. 
-            %li A test that needs lots of setup is telling you something: Your object sucks.
-          %p Test suites usually grow and stumble along without too much thought. “Hey thing X looks shiny, let’s add that in.” is about as far as the process often goes. You need to architect your test suite just like any other part of your code. This does NOT mean lots of meetings and UML diagrams, but adopting a set of team testing guidelines and practices. And, of course, communicating those guidelines and practices to new developers.
-          %p Some topics I’ll be discussing:
-          %ul
-            %li Big Setup == Big Problem
-            %li before :each {waste_my_time}
-            %li FactoryGirl is too damn awesome
-            %li The extra tricky test suite
-            %li Just because mocking can solve some of your problems…
-            %li Use all your cores, damnit
-          %p I’ve been on 10 projects with automated tests in the last 6 years and I’ve seen speedy confidence inducing suites and others that only served to make developers feel dread and guilt about testing. The point of this talk is to communicate tangible strategies for speedily testing Ruby.
-        %dd.bio 
-          %p After becoming frustrated with TI Extended Basic, I became a high school physics teacher.  After becoming frustrated with issuing bathroom passes and detentions I taught myself Java, got an apprenticeship at Object Mentor, and was a developer/consultant at ThoughtWorks and then Obtiva.  Currently I'm a Ruby/Rails developer at Backstop Solutions. I'm also the creator and maintainer of metric_fu (http://metric-fu.rubyforge.org/): A Ruby gem for easy metric report generation.
-          %ul.no-bullets
-            %li http://twitter.com/jakescruggs
-            %li http://jakescruggs.blogspot.com/
-            %li http://www.backstopsolutions.com/  
-        %dt Jeremy Evans
-        %dd.proposal-title Ruby Techniques By Example
-        %dd.abstract 
-          %p Many presentations focus on showing off new applications and libraries. They show you what has been accomplished, but rarely do they show you how. This presentation will take examples from production code (mainly from Sequel), showing techniques that you can use in your own code. Some of the techniques demonstrated will relate to:
-          %ul
-            %li Creating more easily extensible code
-            %li Handling class-level data within inheritance hierarchies
-            %li Improving dynamically defined method performance safely
-            %li Structuring DSL implementations
-            %li Presenting multiple backends as one
-        %dd.bio 
-          %p Jeremy Evans has been the maintainer of Sequel since March of 2008, and has been programming in ruby since early 2005. He has developed numerous ruby libraries and programs such as ThirdBase, Scaffolding Extensions, and ruby-style. Jeremy has contributed to numerous open source projects, such as DC++, BitTorrent, Rack, Ruby on Rails, and Sinatra. Jeremy is also a developer of Aqualung, an open source audio player written in C. He works in Sacramento for a small government agency.  
-        %dt John Hwang
-        %dd.proposal-title Object Oriented, Unobtrusive CSS
-        %dd.abstract 
-          %p To quote Eric Meyer, "Semantic Frameworks are a game-changer." Meta CSS frameworks like SASS, lessCSS, and xCSS are revolutionizing the way we write and manage modern, semantic CSS. With features such as variables, mixins, nested rules and operations, these meta frameworks brings us closer to write our CSS in an object oriented way.  They incorporate CSS frameworks such as Blueprint, Grid960, and YUI and bring together the best of grid design, CSS reset techniques and browser hacks in an unobtrusive and semantic way.  Ultimately, these meta frameworks allow us to develop truly semantic websites that are not only maintainable and fun to develop.  This talk with discuss CSS systems, meta frameworks, and best practices for writing object oriented, unobtrusive semantic code.
-        %dd.bio 
-          %p John Hwang is the CEO of Mutually Human an expert custom software strategy & design consultancy specializing in mobile & web-based products & services. MH helps clients define, design, develop and bring to market innovative products and services based on insightful research and strategy and aligned with business objectives.  John is an entrepreneur and software craftsman with a special interest in Agile + UX, mobile & web technologies, software development practices and building great companies. John is one of the few people who possess the rare talent of comfortably wearing either the designer hat and the developer hat and has a special interest in semantic web, user experience and building web-based products.  
-        %dt John Williams
-        %dd.proposal-title Cooking 101 - Getting Started with Chef
-        %dd.abstract 
-          %p The complex nature of application deployment can make configuration management challenging. As you scale your applications by adding more servers the complexity continues to grow, making a headache for even the most experienced systems administrators.
-          %p Chef is a Ruby based open source systems integration framework for managing servers. Using Chef within your infrastructure is economical, scalable and efficient, allowing you to do more with less. Chef lets you manage your servers by writing code, not running commands.
-          %p In this session we will cover:
-          %ul
-            %li Chef Concepts
-            %li Installation
-            %li Creating a Chef Repository
-            %li Your First Cookbook (and its components)
-            %li Chef Nodes, Clients and Roles
-            %li Chef Indexes
-            %li Executables - Chef Server, Chef Indexer, Chef Client and Chef Solo
-            %li Anatomy of a Chef Run
-        %dd.bio 
-          %p John is a systems administrator for 37signals. He is a ruby enthusiast and has contributed to many open source projects. When not hacking on code, John spends his time with his wife, two daughters and bicycle. He is also a former track cycling national champion. You can follow him at http://twitter.com/j_m_williams.  
-        %dt Joshua French
-        %dd.proposal-title A New Set Of Wheels: Leveraging Ruby For System Administration
-        %dd.abstract 
-          %p Problem:
-          %p As a system administrator, you spend too much time working on your  laundry list of tasks to keep everything a float.  You need to find  ways to "glue" together the holes in your sinking ship.
-          %p Solution:
-          %p First, identify the problem areas.  Next, see what is out there to  help you get your task done.  Accept that not every solution out there does exactly what you want.  Finally, start rolling your  own solutions, in Ruby, where they make sense.
-          %p Conclusion:
-          %p Understand that, while Ruby is not the silver bullet for all your  system administration needs, it does suffice in many areas and  speeds up development of the seemingly endless pile of scripts  needed to stay on top of things.  The key is to not be afraid to  reinvent a wheel here or there to get a better ride.
-        %dd.bio 
-          %p Joshua has been dabbling with Ruby since 2003.  As a system administrator, it was easy to try new things to solve problems.  That role puts you you in control after all.  After switching over to being a developer for several years, he has come back to doing system administrator work for a company that primarily utilizes Ruby.  Today, with his love of Ruby and increased programming experience, he is constantly finding ways to improve life for his operations team.  
-        %dt Kyle J. Ginavan, Ryan Felton
-        %dd.proposal-title Integration Testing Strategies: Locally and on the Grid
-        %dd.abstract 
-          %p An efficient & effective development ecosystem requires thorough testing. The purpose of integration testing is to verify functional, performance, and reliability requirements placed on major design items. Functional and unit tests are an excellent start, however, bugs emerge when not testing the application as a whole.  Ryan Felton will begin with a walk through of local integration testing strategies using Capybara gem, which utilizes Selenium Webdriver, to open you web browser, navigate the specified web page, and verify functionality via simple webrat syntax. The second part of this talk will be lead by Kyle Ginavan discussing the short comings of this approach and how to preform multi-browser cross platform integration testing via the Selenium Shots <www.seleniumshots.com> integration testing service
-        %dd.bio 
-          %p Kyle is a Senior Agile Web Developer and practice Progressive Enhancement. I also really enjoy watching tests run successfully.  Also very grateful to be a part of the Rails and Open Source Communities.
-          %dl.ruby-classes
-            %dt Open Projects::.
-            %dd Selenium Shots
-            %dd Heroku+Jammit
-            %dd Heroku+Jammit+S3
-            %dd Constantations
-            %dd Normalizations
-            %dd Validations  
-        %dt Luigi Montanez
-        %dd.proposal-title Civic Hacking
-        %dd.abstract 
-          %p How can Ruby change cities, states, and countries for the better? Last year, we saw an explosion of interest around government transparency. The Open Government movement, spearheaded by open source developers, seeks to make government more accountable and responsible by turning open government data into citizen-focused, civic-minded applications.
-          %p Luigi Montanez, a Ruby developer with the Sunlight Labs, will guide you through the Gov 2.0 landscape. You'll learn about the data sets and APIs available freely available for your use, the tools and skills you'll need to be a successful civic hacker, and you'll get a thorough overview of the current civic apps out there. Civic hacking will enhance your open source portfolio while making a difference in your community and country.
-        %dd.bio 
-          %p Luigi is a Software Developer with the Sunlight Labs, a non-partisan, not-for-profit organization focused on making government more transparent and accountable through technology. He has been a Rubyist since 2006.  
-        %dt Mark Daggett
-        %dd.proposal-title Surviving the last 20%: Indispensable real-world tips and techniques for Facebook development that pick up where Facebook gems and plugins leave off.
-        %dd.abstract 
-          %p Description
-          %p Tools like Facebooker make Facebook development seductively simple, and they will get you 80% done. Unfortunately, the last 20% can be a brutal death gauntlet, where common mistakes, and API ambiguities among others factors leave budgets shattered, developers exhausted and clients frustrated. I will show you how to survive the last 20% using techniques and code refined over the last two years.
-          %p Abstract
-          %p Most programmers have probably had the experience of solving a particularly onerous problem and thinking to themselves “I am glad I never have to solve that again”. Facebook is full of these types of problems, for good reason too. The typical Facebook application has many more integration points in the typical application, and the development environment required for Facebook applications can often seem baroque and restrictive. These limitations have the cumulative effect of making problems hard to identify and harder to solve.
-          %p Over the last two years I’ve been collecting answers to the problems that occur during the normal course of Facebook application development. I’ve refined most of them into a Rails template that supplements the Facebooker gem, and the other’s I’ve stashed into libs or developer notes I use as needed. This presentation will explore many of these cryptic bugs and reveal the underlying reason for the trouble. Once explained I’ll show how to develop strategies to eliminate or at least mitigate them throughout the app. This presentation will cover mainly Facebook applications, but will touch on FacebookConnect as well. This presentation will be segmented into these subtopics:
-          %ul
-            %li Speeding up Facebook development through Rails templates
-            %li Iframe vs. FBML, choosing the right application type
-            %li Minimizing API calls, though caching and hydrators
-            %li Cheap and easy speed boosts to your Facebook application
-            %li Avoiding common development gotchas in Facebook development.
-          %p Prior Knowledge Required
-          %p This presentation is aimed at the Rails developer who has interest in deploying their application on Facebook. Therefore, some familiarity of how Facebook applications work is helpful, along with a basic knowledge of Rails. 
-          %p While developers who have active Facebook applications will benefit from this presentation immediately, those who are in the planning or research stages of their application will also find many time-saving techniques they can roll into their process before development begins.
-        %dd.bio 
-          %p  Mark has over decade of experience in the fields of experience and interaction design and social software development, through a variety of start-up ventures, artistic works, consulting and advisory roles. Mark founded Locus Focus Inc. a design and development consultancy in Kansas City and is the co-creator of Pledgie.com the popular fund raising site used by many of the top open source projects to raise money for their efforts.   
-        %dt Michael Bleigh
-        %dd.proposal-title The Interoperable Web: Pipedream or Prognostication?  
-        %dd.abstract 
-          %p There are a wave of new open standards taking aim at the holy grail of interoperability: comments cross-posted from one site to another, follow me on Twitter and you follow me on Facebook, too. Are these standards taking hold or are they just an idle pipe dream? Learn about PubSubHubBub, OStatus, Salmon, ActivityStreams and more in a quest to decipher the interoperable web.
-          %p Attendees will learn about different emerging open standards for web interoperability, where they're being used today, and where they could be used in the future. Once a basic understanding of the standards is presented, attendees will get some first-hand examples of the current state of the Ruby ecosystem for these standards and how they can support them in their own applications.
-        %dd.bio 
-          %p Michael Bleigh is the Creative Director and Open Source Activist of Intridea, Inc. and a Kansas City native. He has written numerous open-source libraries in Ruby including TweetStream, Rack::FacebookConnect and SubdomainFu. Michael has also presented at conferences such as RailsConf, Confoo and the Great Lakes Ruby Bash.  
-        %dt Nick Quaranto
-        %dd.proposal-title Redis: Persistence Power
-        %dd.abstract 
-          %p Explaining Redis is tough, it’s easy to say “a data structures server” or “memcached on steroids” or something more jargon filled. The biggest selling point of Redis is that usually as programmers we have to bend our data into a table or document to save it, but with Redis we can persist data as we conceptually visualize it. We'll go over the basics of Redis, how to use it with your Ruby applications, and some real use cases.
-        %dd.bio 
-          %p Nick is a web developer at Thoughtbot, firm believer in open source software, a proud member of Ruby community, and has been doing web development for as long as he can remember. He cut his teeth on classic ASP and ASP.NET at first, but discovered Ruby on Rails through his university and dove in head first. Nick pretends he's a bassist with famous prog rock bands when not coding.  
-        %dt Patrick Crowley
-        %dd.proposal-title Real World Rails: Migrating Legacy Data
-        %dd.abstract 
-          %p Rob Kaufman and Patrick Crowley from San Diego Ruby will demonstrate how to make legacy data migration simple, easy, and repeatable; allowing developers to seed new apps with existing data very early in the development process and fine-tune migrations right up until it's time to launch.
-          %p Legacy migration basics
-          %ul
-            %li Adding a legacy database adapter
-            %li Setting up legacy models
-            %li Mapping legacy fields to existing model attributes
-            %li Building migration rake tasks
-            %li Using helper methods to reformat data
-          %p Advanced migrations
-          %ul
-            %li Text encoding issues
-            %li Non-relational stores (CSV, XML, wikis, etc.)
-            %li MsSQL and other databases
-          %p Deployment strategies
-          %ul
-            %li Migrating in production on a typical Rails host
-            %li Migrating for Heroku users
-        %dd.bio 
-          %p http://sdruby.org/users/3
-          %p http://sdruby.org/users/4  
-        %dt Steven Bristol
-        %dd.proposal-title Mobile Safari Apps
-        %dd.abstract 
-          %p This talk will demonstrate a few librarys that are meant to make it easy to create mobile safari apps that closely resemble full applications. It will talk about the pros and cons of each and show how easy it is to make them from rails.
-        %dd.bio 
-          %ul.no-bullets
-            %li Wrote his first program at the age of nine using BASIC.
-            %li Has written lots and lots of code using lots of languages.
-            %li Loves Ruby on Rails.
-            %li Is a Core Contributor to the Rails Framework.
-            %li Has contributed to several other open source projects.
-            %li Has led teams of software engineers for over 13 years.
-            %li Was a mentor in the 2007 Google Summer of Code.
-            %li Has gone over 150 miles per hour with his knee on the ground while racing motorcycles.
-            %li Has three children.
-            %li He can divide by zero.  
-        %dt Travis Swicegood
-        %dd.proposal-title Pragmatic Guide to Git
-        %dd.abstract 
-          %p 
-          %p Git is hard; at least if you listen to the naysayers.  Actually, you need to know a handful of commands to navigate Git successfully.  This talk demystifies Git.  Once we're finished you'll know everything you need to start using Git in your day-to-day projects and collaboratively with other developers.
-        %dd.bio 
-          %p Please see my last talk submission. I have abstracts already written in Evernote. Never thought to write out a bio. :-)  
-      
+      %h4 Prior Knowledge Required
+      %p.abstract This presentation is aimed at the Rails developer who has interest in deploying their application on Facebook. Therefore, some familiarity of how Facebook applications work is helpful, along with a basic knowledge of Rails. 
+      %p.abstract While developers who have active Facebook applications will benefit from this presentation immediately, those who are in the planning or research stages of their application will also find many time-saving techniques they can roll into their process before development begins.  
+      %h3.speaker-title The Interoperable Web: Pipedream or Prognostication?   
+      %p.abstract
+        %span.speaker-name Michael Bleigh &ndash;
+        There are a wave of new open standards taking aim at the holy grail of interoperability: comments cross-posted from one site to another, follow me on Twitter and you follow me on Facebook, too. Are these standards taking hold or are they just an idle pipe dream? Learn about PubSubHubBub, OStatus, Salmon, ActivityStreams and more in a quest to decipher the interoperable web.
+      %p.abstract Attendees will learn about different emerging open standards for web interoperability, where they're being used today, and where they could be used in the future. Once a basic understanding of the standards is presented, attendees will get some first-hand examples of the current state of the Ruby ecosystem for these standards and how they can support them in their own applications.  
+      %h3.speaker-title The Necessity and Implementation of Speedy Tests 
+      %p.abstract
+        %span.speaker-name Jake Scruggs &ndash;
+        Your project's software practices are deteriorating every minute the developers wait for slow tests to finish. Once developers get fed up and stop running the tests, disregard for failing builds can't be far behind, and from there it's only a short leap to the albatross of a brittle/irrelevant test suite. Luckily this can all be avoided by adopting some time-saving testing standards and practices.
+      %p.abstract If everyone knows that test suites should be fast then why do they take so damn long? Some of that is lack of knowledge about what’s fast and what is not, but mostly the problem is lack of awareness of 2 things:
+      %ol
+        %li When you write tests you should be thinking about their speed. 
+        %li A test that needs lots of setup is telling you something: Your object sucks.
+      %p.abstract Test suites usually grow and stumble along without too much thought. “Hey thing X looks shiny, let’s add that in.” is about as far as the process often goes. You need to architect your test suite just like any other part of your code. This does NOT mean lots of meetings and UML diagrams, but adopting a set of team testing guidelines and practices. And, of course, communicating those guidelines and practices to new developers.
+      %p.abstract Some topics I’ll be discussing:
+      %ul
+        %li Big Setup == Big Problem
+        %li before :each {waste_my_time}
+        %li FactoryGirl is too damn awesome
+        %li The extra tricky test suite
+        %li Just because mocking can solve some of your problems…
+        %li Use all your cores, damnit
+      %p.abstract I’ve been on 10 projects with automated tests in the last 6 years and I’ve seen speedy confidence inducing suites and others that only served to make developers feel dread and guilt about testing. The point of this talk is to communicate tangible strategies for speedily testing Ruby.  
+      %h3.speaker-title Zero to Hero 
+      %p.abstract
+        %img{:src=>'/images/speakers/cory-flanigan.jpg', :width=>66, :height=>80, :alt=>'Cory Flanigan'}
+        %span.speaker-name Cory Flanigan &ndash;
+        One determined man's journey from fast food restaurant cashier to agile development leader in <span class="strike">three easy steps</span> 5 difficult years. My employer, one of the largest privately held media conglomerates in the world, now does development exclusively in Ruby/Rails, using agile methods.  When I started here, waterfall-esque .NET development with no formal process, version control strategy, continuous integration... was the norm. We were losing, big time.  Now, we have all of those things, and are delivering business value faster than ever.  
+      %p.abstract I am the technical leader of our development team.  Ruby, Rails, git, and Agile are some of my contributions to the way we do work now.   Five years ago I worked full-time as a cashier at a fast food restaurant, making minimum wage.  My journey did not include graduation from college, a fairy godmother, or some amazing life-changing revelation. 
+      %p.abstract My hope is a simple one.  To share hard-earned insights that can help other Rubyists or would-be Rubyists, to recognize and capitalize on potential and opportunity wherever they see it.  Through this insight, I believe they can find greater success, and more joy, in anything they do.
