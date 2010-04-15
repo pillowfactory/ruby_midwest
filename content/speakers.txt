@@ -215,6 +215,23 @@ filter:
         %li Just because mocking can solve some of your problems…
         %li Use all your cores, damnit
       %p.abstract I’ve been on 10 projects with automated tests in the last 6 years and I’ve seen speedy confidence inducing suites and others that only served to make developers feel dread and guilt about testing. The point of this talk is to communicate tangible strategies for speedily testing Ruby.  
+      %h3.speaker-title User Experience for Library Designers
+      %p.abstract
+        %img{:src=>'/images/speakers/wesley-beary.jpg', :width=>66, :height=>80, :alt=>'Wesley Beary'}
+        %span.speaker-name Wesley Beary &ndash;
+        I've written "a lot of code":<a href="http://github.com/geemus">http://github.com/geemus</a>, both hobby and work, over the last year, and looking back I can't help but think that writing code for yourself is easy; it's writing code for others can be tough. In this session, I'll share some examples of good and bad practices gathered in my years writing code and libraries, and discuss how to get past being too close to the problem. I'll talk specifically about growing your work into something anybody (and hopefully everybody) will use.
+      %p.abstract Along the way we'll discuss the differences between code for yourself, code for other users and code for collaborators.
+      %p.abstract Some example tips:
+      %ul
+        %li Help new users get started, but don't get in the way of power users.
+        %li Examine the seams of your library and consider how you can keep it focused.
+        %li Be consistent: more consistent code is easier for others to understand (and contribute to).
+      %p.abstract I'll also go over some examples of things to avoid:
+      %ul
+        %li Don't monkey patching: don't muck with other peoples code, lest it muck back.
+        %li Not invented here: once you start writing libraries it can be hard to stop.
+        %li Exceptions: if everything in your library works like x, except y, then you always have an extra case to keep in mind.
+      %p.abstract I'll share a mix of concepts and concrete examples that altogether will help nail down what it takes to write better library code.
       %h3.speaker-title Zero to Hero 
       %p.abstract
         %img{:src=>'/images/speakers/cory-flanigan.jpg', :width=>66, :height=>80, :alt=>'Cory Flanigan'}
