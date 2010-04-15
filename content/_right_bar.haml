@@ -5,17 +5,16 @@ filter:
 
 #right-col.col-1
   #speakers.section
-    %h3 Speakers
+    %h3 Keynote Speakers
     #image_list
     .content
       .loader
-        %p More speakers announced soon!
-        -# %h5.name YOU?
-        -# %p 
-          -# You should speak at Ruby Midwest. Seriously.
-          -# %a{:class => 'you-submit-proposal', :href => 'http://spreadsheets.google.com/viewform?formkey=dG1ZTUYyVW5sRFN3U0FFQy1ZaFQwMGc6MA', :rel => 'facebox'} Submit a proposal!
+        %p 
+          Check out the complete speaker list
+          %a{:href => '/speakers.html'}
+            here!
       .speaker
-        %img.mugshot{:src => '/images/speakers/yahuda-katz.jpg', :alt => 'Yehuda Katz'}
+        %img.mugshot{:src => '/images/speakers/yehuda-keynote.jpg', :alt => 'Yehuda Katz'}
         .desc
           %h5.name Yehuda Katz
           %p
@@ -48,19 +47,12 @@ filter:
             \.
             
       .speaker
-        %img.mugshot{:src => '/images/speakers/charles-nutter.jpg', :alt => 'Charles Oliver Nutter'}
+        %img.mugshot{:src => '/images/speakers/chris-keynote.jpg', :alt => 'Chris Wanstrath'}
           .desc
-            %h5.name Charles Oliver Nutter
+            %h5.name Chris Wanstrath
             %p 
-              Charles Oliver Nutter has been programming most of his life, as a Java developer for the past decade and as a 
-              %a{:href => 'http://jruby.org'} JRuby 
-              developer for over four years. He currently works at 
-              %a{:href => 'http://www.engineyard.com'} Engine Yard 
-              and co-leads the JRuby project, an effort to bring the beauty of Ruby and the power of the JVM together. Charles believes in open source and open standards and hopes his efforts on JRuby and other languages will ensure the JVM remains the preferred open-source managed runtime for many years to come. Charles blogs at 
-              %a{:href => 'http://blog.headius.com'} blog.headius.com 
-              and tweets as 
-              %a{:href => 'http://twitter.com/headius'} "headius" 
-              on Twitter.
+              Chris Wanstrath is a George R R Martin fan who lives in San Francisco and cofounded GitHub. He's an active open source developer and speaker whose projects and talks can be found at
+              %a{ :href => "http://chriswanstrath.com" }      
       -# .speaker
         -# %img.mugshot{:src => '/images/speakers/you.png', :alt => 'Speak at Ruby Midwest'}
           -# .desc

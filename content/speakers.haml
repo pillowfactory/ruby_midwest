@@ -1,5 +1,5 @@
 ---
-title:      Speakers
+title:       Ruby Midwest Conference / July 16-17, 2010 / Kansas City, MO
 created_at: 2010-04-14 00:10:43.192778 -05:00
 filter:
   - erb
@@ -11,11 +11,11 @@ filter:
   #single-col{:style => 'padding-top:2.5em;padding-bottom:10em;'}
     .session
       %h2.first
-        Keynote Speakers
+        Keynotes
       %h3.speaker-title.first
         Yehuda Katz
       %p.abstract
-        %img{:src=>'/images/speakers/yahuda-katz.jpg', :width=>66, :height=>80, :alt=>'Yahuda Katz'}
+        %img{:src=>'/images/speakers/yehuda-keynote.jpg', :width=>150, :height=>150, :alt=>'Yahuda Katz'}
         Yehuda Katz is currently employed by
         %a{ :href => "http://www.engineyard.com/" }
           Engine Yard
@@ -45,14 +45,14 @@ filter:
       %h3.speaker-title
         Chris Wanstrath
       %p.abstract
-        %img{:src=>'/images/speakers/chris-wanstrath.jpg', :width=>66, :height=>80, :alt=>'Chris Wanstrath'}        
+        %img{:src=>'/images/speakers/chris-keynote.jpg', :width=>150, :height=>150, :alt=>'Chris Wanstrath'}        
         Chris Wanstrath is a George R R Martin fan who lives in San Francisco
         and cofounded GitHub. He's an active open source developer and speaker
         whose projects and talks can be found at
         %a{ :href => "http://chriswanstrath.com" }
           http://chriswanstrath.com    
-      %h2
-        General Speakers
+      %h2{:style => 'margin-top:1.5em'}
+        Sessions
       %h3.speaker-title.first A New Set Of Wheels: Leveraging Ruby For System Administration 
       %p.abstract
         %img{:src=>'/images/speakers/joshua-french.jpg', :width=>66, :height=>80, :alt=>'Joshua French'}
@@ -98,11 +98,19 @@ filter:
         %span.speaker-name Adam McCrea &ndash;
         Maybe you've played with jQuery a little bit but still don't feel comfortable with it, or maybe you've only heard about it. Either way, it doesn't take long to learn enough to be dangerous. While jQuery can be intimidating at first, it's based on some very simple principles. Once you grasp those principles, your JavaScript life will never be the same. 
       %p.abstract This talk will focus mostly on jQuery itself, but I'll also hit the basics on how to make the most of jQuery in your Rails apps.  I'll cover the relevant changes in Rails 3, and why you don't need Rails 3 to take advantage of those changes.  By the end of this talk, you'll be easily navigating and manipulating the DOM, writing your own plugins, and of course, amazing your friends with the power and elegance of jQuery.  
-      %h3.speaker-title jRuby 
+      %h3.speaker-title JRuby 
       %p.abstract
         %img{:src=>'/images/speakers/charles-nutter.jpg', :width=>66, :height=>80, :alt=>'Charles Nutter'}
         %span.speaker-name Charles Nutter &ndash;
-        jRuby  
+        Charles Oliver Nutter has been programming most of his life, as a Java developer for the past decade and as a 
+        %a{:href => 'http://jruby.org'} JRuby 
+        developer for over four years. He currently works at 
+        %a{:href => 'http://www.engineyard.com'} Engine Yard 
+        and co-leads the JRuby project, an effort to bring the beauty of Ruby and the power of the JVM together. Charles believes in open source and open standards and hopes his efforts on JRuby and other languages will ensure the JVM remains the preferred open-source managed runtime for many years to come. Charles blogs at 
+        %a{:href => 'http://blog.headius.com'} blog.headius.com 
+        and tweets as 
+        %a{:href => 'http://twitter.com/headius'} "headius" 
+        on Twitter.
       %h3.speaker-title Memprof: the ruby level memory profiler 
       %p.abstract
         %img{:src=>'/images/speakers/aman-gupta.jpg', :width=>66, :height=>80, :alt=>'Aman Gupta'}
@@ -117,7 +125,7 @@ filter:
       %h3.speaker-title Mobile Safari Apps 
       %p.abstract
         %span.speaker-name Steven Bristol &ndash;
-        This talk will demonstrate a few librarys that are meant to make it easy to create mobile safari apps that closely resemble full applications. It will talk about the pros and cons of each and show how easy it is to make them from rails.  
+        This talk will demonstrate a few libraries that are meant to make it easy to create mobile safari apps that closely resemble full applications. It will talk about the pros and cons of each and show how easy it is to make them from rails.  
       %h3.speaker-title Object Oriented, Unobtrusive CSS 
       %p.abstract
         %img{:src=>'/images/speakers/john-hwang.jpg', :width=>66, :height=>80, :alt=>'John Hwang'}
@@ -179,21 +187,28 @@ filter:
       %p.abstract
         %img{:src=>'/images/speakers/mark-daggett.jpg', :width=>66, :height=>80, :alt=>'Mark Daggett'}
         %span.speaker-name Mark Daggett &ndash;
-      %h4 Description
-      %p.abstract Tools like Facebooker make Facebook development seductively simple, and they will get you 80% done. Unfortunately, the last 20% can be a brutal death gauntlet, where common mistakes, and API ambiguities among others factors leave budgets shattered, developers exhausted and clients frustrated. I will show you how to survive the last 20% using techniques and code refined over the last two years.
-      %h4 Abstract
-      %p.abstract Most programmers have probably had the experience of solving a particularly onerous problem and thinking to themselves “I am glad I never have to solve that again”. Facebook is full of these types of problems, for good reason too. The typical Facebook application has many more integration points in the typical application, and the development environment required for Facebook applications can often seem baroque and restrictive. These limitations have the cumulative effect of making problems hard to identify and harder to solve.
-      %p.abstract Over the last two years I’ve been collecting answers to the problems that occur during the normal course of Facebook application development. I’ve refined most of them into a Rails template that supplements the Facebooker gem, and the other’s I’ve stashed into libs or developer notes I use as needed. This presentation will explore many of these cryptic bugs and reveal the underlying reason for the trouble. Once explained I’ll show how to develop strategies to eliminate or at least mitigate them throughout the app. This presentation will cover mainly Facebook applications, but will touch on FacebookConnect as well. This presentation will be segmented into these subtopics:
+        Tools like Facebooker make Facebook development seductively simple, and they will get you 80% done. Unfortunately, the last 20% can be a brutal death gauntlet, where common mistakes, and API ambiguities among others factors leave budgets shattered, developers exhausted and clients frustrated. I will show you how to survive the last 20% using techniques and code refined over the last two years. This presentation will be segmented into these subtopics:
       %ul
         %li Speeding up Facebook development through Rails templates
         %li Iframe vs. FBML, choosing the right application type
         %li Minimizing API calls, though caching and hydrators
         %li Cheap and easy speed boosts to your Facebook application
         %li Avoiding common development gotchas in Facebook development.
+      -# %h4 Description
+      -# %p.abstract 
+      -# %h4 Abstract
+      -# %p.abstract Most programmers have probably had the experience of solving a particularly onerous problem and thinking to themselves “I am glad I never have to solve that again”. Facebook is full of these types of problems, for good reason too. The typical Facebook application has many more integration points in the typical application, and the development environment required for Facebook applications can often seem baroque and restrictive. These limitations have the cumulative effect of making problems hard to identify and harder to solve.
+      -# %p.abstract Over the last two years I’ve been collecting answers to the problems that occur during the normal course of Facebook application development. I’ve refined most of them into a Rails template that supplements the Facebooker gem, and the other’s I’ve stashed into libs or developer notes I use as needed. This presentation will explore many of these cryptic bugs and reveal the underlying reason for the trouble. Once explained I’ll show how to develop strategies to eliminate or at least mitigate them throughout the app. This presentation will cover mainly Facebook applications, but will touch on FacebookConnect as well. This presentation will be segmented into these subtopics:
+      -# %ul
+        -# %li Speeding up Facebook development through Rails templates
+        -# %li Iframe vs. FBML, choosing the right application type
+        -# %li Minimizing API calls, though caching and hydrators
+        -# %li Cheap and easy speed boosts to your Facebook application
+        -# %li Avoiding common development gotchas in Facebook development.
 
-      %h4 Prior Knowledge Required
-      %p.abstract This presentation is aimed at the Rails developer who has interest in deploying their application on Facebook. Therefore, some familiarity of how Facebook applications work is helpful, along with a basic knowledge of Rails. 
-      %p.abstract While developers who have active Facebook applications will benefit from this presentation immediately, those who are in the planning or research stages of their application will also find many time-saving techniques they can roll into their process before development begins.  
+      -# %h4 Prior Knowledge Required
+      -# %p.abstract This presentation is aimed at the Rails developer who has interest in deploying their application on Facebook. Therefore, some familiarity of how Facebook applications work is helpful, along with a basic knowledge of Rails. 
+      -# %p.abstract While developers who have active Facebook applications will benefit from this presentation immediately, those who are in the planning or research stages of their application will also find many time-saving techniques they can roll into their process before development begins.  
       %h3.speaker-title The Interoperable Web: Pipedream or Prognostication?   
       %p.abstract
         %span.speaker-name Michael Bleigh &ndash;
