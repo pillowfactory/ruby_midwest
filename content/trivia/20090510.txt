@@ -1,0 +1,31 @@
+---
+title:      Ruby Midwest Conference / July 16-17, 2010 / Kansas City, MO
+created_at: 2010-05-09 23:37:46.275141 -05:00
+filename: F15fKRw
+filter:
+  - haml
+dirty: false
+---
+= render :partial => "/navigation", :locals => {:current => ''}
+
+#content.container
+  #single-col{:style => 'padding-top:2.5em;padding-bottom:10em;'}
+    %h1 Daily Ruby Midwest Trivia Contest
+    %p 
+      Every weekday from now till the end of the early bird pricing on Friday, May 14th, there will be a chance to win a $25 discount code. Trivia questions will be annouced on the 
+      %a{:href=>"http://twitter.com/RubyMidwest"} @RubyMidwest 
+      Twitter feed at 12:00 CST.
+
+    %p Here are the official contest rules:
+
+    %ol
+      %li 
+        Must follow 
+        %a{:href=>"http://twitter.com/RubyMidwest"} @RubyMidwest 
+        to be eligible.
+      %li Must tweet your answer with the hashtab, #rmw.
+      %li First person with correct answer wins.
+    
+    .trivia
+      %h2 Trivia for May 10th
+      %p Tweet the twitter handles and locations of each of the @Chargify team members.

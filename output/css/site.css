@@ -422,3 +422,8 @@ div.section {
 .strike {
   text-decoration: line-through;
 }
+.trivia p{
+  background: none repeat scroll 0 0 rgba(67, 112, 131, 0.34);
+  padding: 25px;
+  font-size: 2em;
+}
