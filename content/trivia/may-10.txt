@@ -4,7 +4,7 @@ created_at: 2010-05-09 23:37:46.275141 -05:00
 filename: F15fKRw
 filter:
   - haml
-dirty: false
+dirty: true
 ---
 = render :partial => "/navigation", :locals => {:current => ''}
 
@@ -31,4 +31,8 @@ dirty: false
     
     .trivia
       %h2 Trivia for May 10th
-      %p Tweet the twitter handles and locations of each of the @Chargify team members.
+      %p 
+        Tweet the twitter handles of the 
+        %a{:href => 'http://twitter.com/chargify', :target => '_blank'}
+          @chargify 
+        founders and how Chargify helps entrepreneurs / small businesses
