@@ -22,12 +22,34 @@ filter:
       %div{:class => 'buy_your_tickets'}
         %a{:target=>'_blank', :href=>'http://rubymidwest.stagehq.com/events/219/booking/new'} Buy your tickets
 
-      %p 
-        Get your Early Bird tickets before May 15 and save $50.  That's $75 for two days of single track ruby goodness!  Register 
-        %a{:target=>'_blank', :href=>'http://rubymidwest.stagehq.com/events/219/booking/new'} HERE 
-        and check out the 
-        %a{:href=>'/travel-and-venue.html'} Travel &amp; Venue 
-        info for hotel accommodations.
+      %p             
+        Get your two days of single track ruby goodness!  
+      
+      %div.registration
+        %table
+          %tr
+            %th Ticket
+            %th Price
+            %th Ends
+          %tr
+            %td.expired Early Bird
+            %td.price.expired $75
+            %td.date.expired May 15
+          %tr
+            %td General Admission
+            %td.price $125
+            %td.date June 30
+          %tr
+            %td Last Minute
+            %td.price $175
+            %td.date July 15
+
+        %p 
+          Register 
+          %a{:target=>'_blank', :href=>'http://rubymidwest.stagehq.com/events/219/booking/new'} HERE 
+          and check out the 
+          %a{:href=>'/travel-and-venue.html'} Travel &amp; Venue 
+          info for hotel accommodations.
     
         .omgwtfbbq
           %a{:target => '_blank', :href=>'http://bbq.rubymidwest.com'}

@@ -252,6 +252,25 @@ div.section {
   text-decoration: none;
 }
 
+.registration table {
+  width: 100%;
+  border: 1px solid #000;
+  border-collapse: collapse;
+}
+
+.registration table th, .registration table td {
+  white-space: nowrap;
+  border: 1px solid #000;
+}
+
+.registration table td {
+  padding: 5px;
+}
+
+.registration .date, .registration .price { text-align: center;}
+
+.registration .expired {text-decoration: line-through;}
+
 #info {
   margin-top: 20px;
 }
