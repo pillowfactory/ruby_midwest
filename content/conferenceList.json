@@ -1,0 +1,102 @@
+[
+  { 
+    "name": "RailsConf",
+    "date": { "start": "Mon, Jun 7", "end": "Thurs, Jun 10" }, 
+    "address": "One West Pratt Street Baltimore, Maryland 21201",
+    "geo": { "lat": 39.285596, "lng": -76.616212 },
+    "website": "http://railsconf.com"
+  },
+  {
+    "name": "Developer Day Portland",
+    "date": { "start": "Sat, Jul 10", "end": "Sat, Jul 10" }, 
+    "address": "Portland, OR",
+    "geo": { "lat": 45.51789504294005, "lng": -122.67608642578125 },
+    "website": "http://developer-day.com" 
+  },
+  {
+    "name": "Ruby Midwest",
+    "date": { "start": "Fri, Jul 16", "end": "Sat, Jul 17" }, 
+    "address": "5100 Rockhill Rd. Kansas City , MO 64110",
+    "geo": { "lat": 39.033632, "lng": -94.576314 },
+    "website": "http://rubymidwest.com" 
+  },
+  {
+    "name": "Developer Day San Francisco",
+    "date": { "start": "Sat, Aug 14", "end": "Sat, Aug 14" }, 
+    "address": "San Francisco, CA",
+    "geo": { "lat": 37.77493, "lng": -122.419416 },
+    "website": "http://developer-day.com" 
+  },
+  {
+    "name": "Developer Day DC",
+    "date": { "start": "Sat, Aug 28", "end": "Sat, Aug 28" }, 
+    "address": "Falls Church, VA",
+    "geo": { "lat": 38.882334, "lng": -77.171091 },
+    "website": "http://developer-day.com" 
+  },
+  {
+    "name": "Lone Star Ruby Conference",
+    "date": { "start": "Thurs, Aug 26", "end": "Sat, Aug 28" }, 
+    "address": "2525 West Anderson Lane, Austin, TX",
+    "geo": { "lat": 30.36695095297672, "lng": -97.73506164550781 },
+    "website": "http://www.lonestarrubyconf.com" 
+  },
+  {
+    "name": "Golden Gate Ruby Conf",
+    "date": { "start": "Fri, Sept 10", "end": "Sat, Sept 11" }, 
+    "address": "San Francisco, CA",
+    "geo": { "lat": 37.77493, "lng": -122.419416 },
+    "website": "http://gogaruco.com" 
+  },
+  {
+    "name": "Ruby DCamp",
+    "date": { "start": "Sat, Sept 18", "end": "Sun, Sept 19" },
+    "address": "Washington, DC",
+    "geo": { "lat": 38.895112, "lng": -77.036366 },
+    "website": "http://rubydcamp.org" 
+  },
+  {
+    "name": "Developer Day Philadelphia",
+    "date": { "start": "Sat, Sept 25", "end": "Sat, Sept 25" }, 
+    "address": "Philadelphia, PA",
+    "geo": { "lat": 39.952335, "lng": -75.163789 },
+    "website": "http://developer-day.com" 
+  },
+  {
+    "name": "SunnyConf",
+    "date": { "start": "Sat, Sept 25", "end": "?" },
+    "address": "Phoenix, AZ",
+    "geo": { "lat": 33.448377, "lng": -112.074037 },
+    "website": "http://sunnyconf.com" 
+  },
+  {
+    "name": "erubycon",
+    "date": { "start": "Fri, Oct 1", "end": "Sun, Oct 3" },
+    "address": "Columbus, OH",
+    "geo": { "lat": 39.961176, "lng": -82.998794  },
+    "website": "http://erubycon.com" 
+  },
+  {
+    "name": "mountain.rb",
+    "date": { "start": "Wed., Oct 6", "end": "Sat, Sept 9" }, 
+    "address": "Boulder, CO",
+    "geo": { "lat": 40.014986, "lng": -105.270546 },
+    "website": "http://mountainrb.com" 
+  },
+  {
+    "name": "Strange Loop 2010",
+    "date": { "start": "Thurs, Oct 14", "end": "Fri, Oct 15" },
+    "address": "6161 Delmar Blvd, St Louis, MO 63112",
+    "geo": { "lat": 38.65525356664342, "lng": -90.29834747314453 },
+    "website": "http://strangeloop2010.com" 
+  },
+  {
+    "name": "Developer Day Orlando",
+    "date": { "start": "Sat, Oct 23", "end": "Sat, Oct 23" }, 
+    "address": "Orlando, FL",
+    "geo": { "lat": 28.538336, "lng": -81.379236 },
+    "website": "http://developer-day.com" 
+  }
+]
+
+

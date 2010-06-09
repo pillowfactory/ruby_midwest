@@ -446,3 +446,28 @@ div.section {
   padding: 25px;
   font-size: 2em;
 }
+.conferenceDetails span{
+  display: block;
+  color: #000;
+}
+.website a{
+  color: #000;
+}
+#map_canvas{
+  float: left;
+}
+#conferenceList{
+  float: left;
+}
+#conferenceList .name{
+  text-decoration: underline
+}
+#conferenceList .name:hover{
+  cursor:pointer;
+}
+#conferenceList ul{
+  list-style: none;
+}
+.clear-fix{
+  clear:both;
+}

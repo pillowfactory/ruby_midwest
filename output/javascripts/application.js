@@ -31,5 +31,10 @@ $(function() {
       $(this).find("span:last").remove();
     }
   );
-
+  
+  var upcomingConferences = new conferenceMap({
+    canvasId: "map_canvas",
+    listId: "conferenceList",
+    dataURL: "/conferenceList.json"
+  });
 });
