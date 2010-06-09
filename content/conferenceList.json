@@ -27,6 +27,13 @@
     "geo": { "lat": 37.77493, "lng": -122.419416 },
     "website": "http://developer-day.com" 
   },
+  { 
+    "name": "RS on Rails",
+    "date": { "start": "Sat, Aug 21", "end": "Sat, Aug 21" }, 
+    "address": "Porto Alegre, Brazil",
+    "geo": { "lat": -30.027704, "lng": -51.228735 },
+    "website": "http://www.rsrails.com.br"
+  },
   {
     "name": "Developer Day DC",
     "date": { "start": "Sat, Aug 28", "end": "Sat, Aug 28" }, 
@@ -40,6 +47,13 @@
     "address": "2525 West Anderson Lane, Austin, TX",
     "geo": { "lat": 30.36695095297672, "lng": -97.73506164550781 },
     "website": "http://www.lonestarrubyconf.com" 
+  },
+  { 
+    "name": "Ruby Kaigi",
+    "date": { "start": "Fri, Aug 27", "end": "Sun, Aug 29" }, 
+    "address": "Tsukuba, Ibaraki, Japan",
+    "geo": { "lat": 36.035575, "lng": 140.073866 },
+    "website": "http://rubykaigi.org/2010"
   },
   {
     "name": "Golden Gate Ruby Conf",
@@ -98,5 +112,6 @@
     "website": "http://developer-day.com" 
   }
 ]
+
 
 
