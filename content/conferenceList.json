@@ -1,7 +1,7 @@
 [
   { 
     "name": "RailsConf",
-    "date": { "start": "Mon, Jun 7", "end": "Thurs, Jun 10" }, 
+    "date": { "start": "Mon, Jun 7", "end": "Thu, Jun 10" }, 
     "address": "One West Pratt Street Baltimore, Maryland 21201",
     "geo": { "lat": 39.285596, "lng": -76.616212 },
     "website": "http://railsconf.com"
@@ -43,7 +43,7 @@
   },
   {
     "name": "Lone Star Ruby Conference",
-    "date": { "start": "Thurs, Aug 26", "end": "Sat, Aug 28" }, 
+    "date": { "start": "Thu, Aug 26", "end": "Sat, Aug 28" }, 
     "address": "2525 West Anderson Lane, Austin, TX",
     "geo": { "lat": 30.36695095297672, "lng": -97.73506164550781 },
     "website": "http://www.lonestarrubyconf.com" 
@@ -99,7 +99,7 @@
   },
   {
     "name": "Strange Loop 2010",
-    "date": { "start": "Thurs, Oct 14", "end": "Fri, Oct 15" },
+    "date": { "start": "Thu, Oct 14", "end": "Fri, Oct 15" },
     "address": "6161 Delmar Blvd, St Louis, MO 63112",
     "geo": { "lat": 38.65525356664342, "lng": -90.29834747314453 },
     "website": "http://strangeloop2010.com" 
@@ -110,6 +110,13 @@
     "address": "Orlando, FL",
     "geo": { "lat": 28.538336, "lng": -81.379236 },
     "website": "http://developer-day.com" 
+  },
+  {
+    "name": "RubyConf X",
+    "date": { "start": "Thu, Nov 11", "end": "Sat, Nov 13" }, 
+    "address": "",
+    "geo": { "lat": 29.953238, "lng": -90.069003  },
+    "website": "http://rubyconf.org/" 
   }
 ]
 
