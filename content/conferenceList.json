@@ -99,7 +99,7 @@
   },
   {
     "name": "mountain.rb",
-    "date": { "start": "Wed., Oct 6", "end": "Sat, Sept 9" }, 
+    "date": { "start": "Wed., Oct 6", "end": "Sat, Oct 9" }, 
     "address": "Boulder, CO",
     "geo": { "lat": 40.014986, "lng": -105.270546 },
     "website": "http://mountainrb.com" 
