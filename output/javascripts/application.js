@@ -33,8 +33,8 @@ $(function() {
   );
   
   var upcomingConferences = new conferenceMap({
-    canvasId: "map_canvas",
-    listId: "conferenceList",
+    canvas: $("#map_canvas"),
+    list: $("#conferenceList"),
     dataURL: "/conferenceList.json"
   });
 });
