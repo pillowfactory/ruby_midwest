@@ -63,13 +63,6 @@
     "website": "http://gogaruco.com" 
   },
   {
-    "name": "WindyCityRails",
-    "date": { "start": "Sat, Sept 11", "end": "Sat, Sept 11"},
-    "address": "320 North Dearborn Street, Chicago, IL",
-    "geo": { "lat": 41.888233, "lng": -87.63014 },
-    "website": "http://windycityrails.org"
-  },
-  {
     "name": "Ruby DCamp",
     "date": { "start": "Sat, Sept 18", "end": "Sun, Sept 19" },
     "address": "Washington, DC",
