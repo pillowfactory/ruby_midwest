@@ -213,6 +213,33 @@ h1#rmw a {
   -moz-box-shadow:0 0 10px #000;  
 }
 
+#schedule {
+  width: 100%;
+}
+#schedule th {
+  font-size: 1.4em;
+  padding-bottom: 10px;
+}
+
+#schedule td {
+  vertical-align: top;
+  padding: 10px 5px;
+}
+
+#schedule td p {
+  margin: 0;
+}
+#schedule td p.title {
+  font-weight: bold;
+}
+#schedule td p.name {
+  font-style: italic;
+}
+
+#schedule td.time {
+  white-space: nowrap;
+}
+
 #agenda table {
   width: 100%;
 }
