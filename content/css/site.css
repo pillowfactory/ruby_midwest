@@ -254,7 +254,7 @@ div.section {
   text-decoration: none;
 }
 
-.buy_your_tickets_long a, .buy_your_tickets a:hover {
+.buy_your_tickets_long a, .buy_your_tickets_long a:hover {
   background: url("/images/button/buy-your-tickets-long.gif") no-repeat scroll 0 0 transparent !important;
   width: 300px !important;
 }
