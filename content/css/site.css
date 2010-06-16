@@ -60,18 +60,29 @@ a img {
   color: #444;
 }
 
-#nav ul {
+#right_nav, #left_nav {
   font-weight: bold;
   background: rgba(67,112,131,0.34);
   position: relative;
   z-index: 22;
-  float: right;
   padding: 0 10px 5px 10px;
   margin: 0 20px 0 0;
+  width: 360px;
   -webkit-border-bottom-left-radius:6px;
   -webkit-border-bottom-right-radius:6px;  
   -moz-border-radius-bottomleft:6px;
   -moz-border-radius-bottomright:6px;
+}
+
+#left_nav {
+  float: left;
+}
+#right_nav {
+  float: right;
+}
+
+#nav {
+  text-align: center;
 }
 
 #nav ul li {
@@ -81,7 +92,7 @@ a img {
 
 #nav ul li a {
   display: block;
-  padding: 5px;  
+  padding: 5px 8px;  
   -webkit-border-radius:4px;
   -moz-border-radius:4px;
   text-shadow: #556e74 0 2px 1px;

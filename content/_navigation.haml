@@ -2,39 +2,40 @@
 filter: 
   - haml
 ---
+- current ||= 'home'
 
 #nav.container
-  %ul
+  %ul#left_nav
     %li
       - if current == 'home'
         %a{:href => '/', :class => 'current'} Home
       - else
         %a{:href => '/'} Home
     %li
-      %a{:target => '_blank', :href => 'http://rubymidwest.stagehq.com/events/219/booking/new'} Registration
-    %li
       - if current == 'travel'
         %a{:href => '/travel-and-venue.html', :class => 'current'} Travel &amp; Venue
       - else
         %a{:href => '/travel-and-venue.html'} Travel &amp; Venue
     %li
+      %a{:target => '_blank', :href => 'http://rubymidwest.stagehq.com/events/219/booking/new'} Registration
+      
+  %ul#right_nav
+    %li
       - if current == 'speakers'
         %a{:href => '/speakers.html', :class => 'current'} Speakers
       - else
         %a{:href => '/speakers.html'} Speakers
+    %li
+      - if current == 'schedule'
+        %a{:href => '/schedule.html', :class => 'current'} Schedule
+      - else
+        %a{:href => '/schedule.html'} Schedule
+    %li
+      %a{:target => '_blank', :href => 'http://bbq.rubymidwest.com/'} BBQ
+    %li
+      - if current == 'organizers'
+        %a{:href => '/organizers.html', :class => 'current'} Organizers
+      - else
+        %a{:href => '/organizers.html'} Organizers
 
-    / %li
-    /   - if current == 'organizers'
-    /     %a{:href => '/organizers.html', :class => 'current'} Organizers
-    /   - else
-    /     %a{:href => '/organizers.html'} Organizers
-
-
-    -# %li
-      -# %a{:href => '/location.html'} Location
-    -# %li
-      -# %a{:href => '/program.html'} Program
-    -# %li
-      -# %a{:href => '/about.html'} About
-    -# %li
-      -# %a{:href => '/sponsors.html'} Sponsors
+%br{:class => 'clear'}
