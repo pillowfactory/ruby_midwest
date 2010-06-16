@@ -438,8 +438,9 @@ div.section {
 
 .organizer {
   clear:both;
+  margin-bottom: 80px;
 }
-.organizer img, .organizer div {
+.organizer img {
   float:left;
 }
 .organizer img {

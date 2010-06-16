@@ -8,8 +8,9 @@ filter:
 = render :partial => "navigation", :locals => {:current => 'organizers'}
 
 #content.container
+  %h1 Ruby Midwest Organizers
+  %br
   #left-col.col-1.first
-
     .organizer
       %img{:src => 'http://a3.twimg.com/profile_images/514079549/2009-10-30_Steven.Chau-7_bigger.jpg'}
       %div
@@ -20,6 +21,8 @@ filter:
       %div
         %h3 Shashank Date
         %a{:href=>'http://www.twitter.com/shanko'} @shanko
+  
+  #right-col.col-1
     .organizer
       %img{:src => 'http://a3.twimg.com/profile_images/280858237/ryan_bigger.jpg'}
       %div
@@ -31,5 +34,5 @@ filter:
         %h3 Luke Pillow
         %a{:href=>'http://www.twitter.com/lpillow'} @lpillow
 
-  .first
 
+  .first
