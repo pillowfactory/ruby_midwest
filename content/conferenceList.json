@@ -6,6 +6,13 @@
     "geo": { "lat": 39.285596, "lng": -76.616212 },
     "website": "http://railsconf.com"
   },
+  { 
+    "name": "WindyCityDB",
+    "date": { "start": "Sat, Jun 26", "end": "Sat, Jun 26" }, 
+    "address": "Chicago, IL",
+    "geo": { "lat": 41.64007838467894, "lng": -91.0986328125 },
+    "website": "http://windycitydb.org"
+  },
   {
     "name": "Developer Day Portland",
     "date": { "start": "Sat, Jul 10", "end": "Sat, Jul 10" }, 
@@ -19,6 +26,13 @@
     "address": "5100 Rockhill Rd. Kansas City , MO 64110",
     "geo": { "lat": 39.033632, "lng": -94.576314 },
     "website": "http://rubymidwest.com" 
+  },
+  {
+    "name": "OSCON 2010",
+    "date": { "start": "Mon, Jul 19", "end": "Fri, Jul 23" }, 
+    "address": "Portland, OR",
+    "geo": { "lat": 45.51789504294005, "lng": -122.67608642578125 },
+    "website": "http://www.oscon.com/oscon2010" 
   },
   {
     "name": "Developer Day San Francisco",
@@ -124,6 +138,13 @@
     "address": "Orlando, FL",
     "geo": { "lat": 28.538336, "lng": -81.379236 },
     "website": "http://developer-day.com" 
+  },
+  {
+    "name": "Acts As Conference",
+    "date": { "start": "Thu, Oct 28", "end": "Sat, Oct 30" }, 
+    "address": "Orlando, FL",
+    "geo": { "lat": 28.538336, "lng": -81.379236 },
+    "website": "http://www.actsasconference.com" 
   },
   {
     "name": "RubyConf X",
