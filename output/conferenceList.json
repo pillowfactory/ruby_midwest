@@ -1,12 +1,5 @@
 [
   { 
-    "name": "RailsConf",
-    "date": { "start": "Mon, Jun 7", "end": "Thu, Jun 10" }, 
-    "address": "One West Pratt Street Baltimore, Maryland 21201",
-    "geo": { "lat": 39.285596, "lng": -76.616212 },
-    "website": "http://railsconf.com"
-  },
-  { 
     "name": "WindyCityDB",
     "date": { "start": "Sat, Jun 26", "end": "Sat, Jun 26" }, 
     "address": "Chicago, IL",
