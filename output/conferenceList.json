@@ -56,36 +56,43 @@
     "website": "http://rubykaigi.org/2010"
   },
   {
+    "name": "Ruby Hoedown",
+    "date": { "start": "Fri, Sep 3", "end": "Sat, Sep 4" }, 
+    "address": "Nashville, TN",
+    "geo": { "lat": 36.159498605271835, "lng": -86.78443908691406 },
+    "website": "http://gogaruco.com" 
+  },
+  {
     "name": "Golden Gate Ruby Conf",
-    "date": { "start": "Fri, Sept 10", "end": "Sat, Sept 11" }, 
+    "date": { "start": "Fri, Sep 10", "end": "Sat, Sep 11" }, 
     "address": "San Francisco, CA",
     "geo": { "lat": 37.77493, "lng": -122.419416 },
     "website": "http://gogaruco.com" 
   },
   {
     "name": "WindyCityRails",
-    "date": { "start": "Sat, Sept 11", "end": "Sat, Sept 11"},
+    "date": { "start": "Sat, Sep 11", "end": "Sat, Sep 11"},
     "address": "320 North Dearborn Street, Chicago, IL",
     "geo": { "lat": 41.888233, "lng": -87.63014 },
     "website": "http://windycityrails.org"
   },
   {
     "name": "Ruby DCamp",
-    "date": { "start": "Sat, Sept 18", "end": "Sun, Sept 19" },
+    "date": { "start": "Sat, Sep 18", "end": "Sun, Sep 19" },
     "address": "Washington, DC",
     "geo": { "lat": 38.895112, "lng": -77.036366 },
     "website": "http://rubydcamp.org" 
   },
   {
     "name": "Developer Day Philadelphia",
-    "date": { "start": "Sat, Sept 25", "end": "Sat, Sept 25" }, 
+    "date": { "start": "Sat, Sep 25", "end": "Sat, Sep 25" }, 
     "address": "Philadelphia, PA",
     "geo": { "lat": 39.952335, "lng": -75.163789 },
     "website": "http://developer-day.com" 
   },
   {
     "name": "SunnyConf",
-    "date": { "start": "Sat, Sept 25", "end": "?" },
+    "date": { "start": "Sat, Sep 25", "end": "?" },
     "address": "Phoenix, AZ",
     "geo": { "lat": 33.448377, "lng": -112.074037 },
     "website": "http://sunnyconf.com" 
