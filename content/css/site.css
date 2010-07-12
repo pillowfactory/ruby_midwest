@@ -229,14 +229,14 @@ h1#rmw a {
 #schedule td p {
   margin: 0;
 }
-#schedule td p.title {
+#schedule td.title, #schedule p.title {
   font-weight: bold;
 }
-#schedule td p.name {
+#schedule td.name, #schedule p.name {
   font-style: italic;
 }
 
-#schedule td.time {
+#schedule td.time, #schedule p.time {
   white-space: nowrap;
 }
 
