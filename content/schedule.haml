@@ -8,10 +8,15 @@ filter:
               
 #content.container
   #single-col{:style => 'padding-top:2.5em;padding-bottom:10em;'}
-    %div{:class => 'buy_your_tickets buy_your_tickets_long'}
-      %a{:target=>'_blank', :href=>'http://rubymidwest.stagehq.com/events/219/booking/new'} Buy your RubyMidwest tickets
+
     %br
     %h1.center Ruby Midwest Schedule
+    %div{:class => 'center'}
+      %a{:href => "webcal://ical.mac.com/mokolabs/RubyMidwest.ics"}
+        %img{:src=>'/images/07_16.png', :height => '24', :align => 'bottom'}
+      %a{:href => "webcal://ical.mac.com/mokolabs/RubyMidwest.ics"}
+        Subscribe to the Ruby Midwest Calendar
+
     %br 
     %table#schedule
       %tr
@@ -181,4 +186,8 @@ filter:
         %td.title Break For BBQ at 7:00 PM sponsored by Intridea
         %td
         %td      
-      
+    %div{:class => 'center'}
+      %a{:href => "webcal://ical.mac.com/mokolabs/RubyMidwest.ics"}
+        %img{:src=>'/images/07_16.png', :height => '24', :align => 'bottom'}
+      %a{:href => "webcal://ical.mac.com/mokolabs/RubyMidwest.ics"}
+        Subscribe to the Ruby Midwest Calendar      

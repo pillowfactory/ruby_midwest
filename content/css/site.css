@@ -14,6 +14,7 @@ body {
 }
 .center {text-align: center;}
 .right  {text-align: right;}
+.floatRight {float: right;}
 
 #speakers li {
   margin: 1em 0;
