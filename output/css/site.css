@@ -472,7 +472,7 @@ div.section {
   padding-left: 80px;
 }
 
-.session h2, .session h3{
+.session h2, .session h3, .session .presentation{
   margin-left: -80px;
 }
 .session h2{
@@ -498,7 +498,7 @@ div.section {
   color: #000;
 }
 .website a{
-  color: #000;
+  color: #090909;
 }
 #map_canvas{
   float: left;
