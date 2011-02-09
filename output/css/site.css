@@ -121,10 +121,10 @@ h1#rmw a {
   display: block;
   position: relative;
   z-index: 10;
-  width: 772px;
-  height: 329px;
+  width: 600px;
+  height: 256px;
   margin: 0 auto;
-  background: url(../images/logo.png) no-repeat;
+  background: url(../images/logo-small.png) no-repeat;
   text-indent: -999em;
 }
 #speakers #you {
@@ -358,10 +358,10 @@ div.section {
 }
 
 #lower {  
-  border-top: 10px solid rgba(67,112,131,0.34);
+  /* border-top: 10px solid rgba(67,112,131,0.34); */
   padding: 0;
   margin: -50px 0 0 0;
-  background: rgba(256,256,256,.3);
+  /* background: rgba(256,256,256,.3); */
 }
 #pasture {
   padding: 10px;

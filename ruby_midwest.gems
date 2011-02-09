@@ -1,0 +1,15 @@
+# ruby_midwest.gems generated gem export file. Note that any env variable settings will be missing. Append these after using a ';' field separator
+configuration -v1.2.0
+diff-lcs -v1.1.2
+directory_watcher -v1.3.2
+haml -v3.0.25
+hpricot -v0.8.3
+launchy -v0.3.7
+little-plugger -v1.1.2
+logging -v1.4.3
+loquacious -v1.7.0
+rspec -v2.5.0
+rspec-core -v2.5.1
+rspec-expectations -v2.5.0
+rspec-mocks -v2.5.0
+webby -v0.9.4
