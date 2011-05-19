@@ -1,5 +1,0 @@
-The format for speakers on the home page is the same as the examples. Add each speaker in a div.speaker and jQuery does the rest.
-
-The secondary pages are pretty basic. I'm leaving the right column visible on all pages (_right_bar.haml) since it has the registration info and sponsors. They'll probably want that.
-
-I'll probably tweak some things, but this will get you by.
