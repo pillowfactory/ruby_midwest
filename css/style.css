@@ -156,7 +156,8 @@ textarea { overflow: auto; }
 #registration .tickets .icon { background-position: 0 -3px; width: 45px; height: 45px; top: 0; left: -67px; }
 #registration .hourglass .icon { background-position: -51px -45px; width: 22px; height: 49px; top: -6px; left: -58px; }
 #registration .button { margin-top: 5px; }
-#registration .price { background-image: url(images/prices.png); width: 38px; height: 18px; display: inline-block; position: relative; margin-bottom: -20px; top: -14px; }
+/*#registration .price { background-image: url(images/prices.png); width: 38px; height: 18px; display: inline-block; position: relative; margin-bottom: -20px; top: -14px; }*/
+#registration .price { width: 38px; height: 18px; display: inline-block; position: relative; margin-bottom: -20px; color: #777; font-size: 15px; }
 #registration .general { background-position: 0px -18px }
 #registration .last-minute { background-position: 0px -36px }
 
