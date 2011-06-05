@@ -171,7 +171,7 @@ textarea { overflow: auto; }
 #sponsors .entry-body { padding: 20px 0; }
 #sponsors .left-half img { margin: 0 0 20px 108px; }
 #sponsors .right-half img { margin-left: 30px; }
-#sponsors .row-sponsors { clear: both; background: url(images/row-sponsors.png); width: 600px; height: 70px; padding: 7px 0 0; margin: 0 auto; }
+#sponsors .row-sponsors { clear: both; background: url(images/row-sponsors.png); width: 600px; height: 70px; padding: 7px 0 0; margin: 0 auto 10px; }
 #sponsors .row-sponsors p { font-size: 24px; line-height: 28px; text-align: center; color: #333; }
 
 #speakers { background: url(images/bg4.jpg) 50% -305px no-repeat; position: relative; margin-bottom: -118px; }
