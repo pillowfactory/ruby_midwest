@@ -170,9 +170,11 @@ textarea { overflow: auto; }
 #sponsors { background: url(images/bg3.jpg) 50% -429px no-repeat; }
 #sponsors .section-entry { background: url(images/bg4.jpg) 50% 396px no-repeat; height: 700px; }
 #sponsors .entry-body { padding: 20px 0; }
+#sponsors .left-half { text-align: center; }
+#sponsors .right-half { text-align: center; }
 #sponsors .left-half img { margin: 0 0 20px 108px; }
 #sponsors .right-half img { margin-left: 30px; }
-#sponsors .row-sponsors { clear: both; background: url(images/row-sponsors.png); width: 600px; height: 70px; padding: 7px 0 0; margin: 0 auto 10px; }
+#sponsors .row-sponsors { clear: both; background: url(images/row-sponsors.png); width: 600px; height: 70px; padding: 7px 0 0; margin: 0 auto 30px; }
 #sponsors .row-sponsors p { font-size: 24px; line-height: 28px; text-align: center; color: #333; }
 
 #speakers { background: url(images/bg4.jpg) 50% -305px no-repeat; position: relative; margin-bottom: -118px; }
