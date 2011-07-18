@@ -191,6 +191,9 @@ textarea { overflow: auto; }
 #speakers #top-bios { padding-bottom: 3px; }
 #speakers #top-bios .entry { width: 240px; padding-right: 5px; }
 #speakers #top-bios .image img { display: block; margin-bottom: 6px; }
+#speakers #speaker-bios .speaker { clear:both; min-height: 190px;}
+#speakers #speaker-bios .speaker .image { width: 80px; }
+#speakers #speaker-bios .speaker .entry { width: 290px; }
 
 #speakers .call-for-proposals p { font-size: 24px; line-height: 28px; text-align: center; color: #333; }
 
