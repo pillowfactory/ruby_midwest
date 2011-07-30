@@ -192,7 +192,7 @@ textarea { overflow: auto; }
 #speakers #top-bios .entry { width: 240px; padding-right: 5px; }
 #speakers #top-bios .image img { display: block; margin-bottom: 6px; }
 #speakers #speaker-bios .speaker { padding: 12px 0; }
-#speakers #speaker-bios .speaker .image { width: 80px; }
+#speakers #speaker-bios .speaker .image { width: 80px; top: -5px; position: relative; }
 #speakers #speaker-bios .speaker .entry { width: 290px; }
 #speakers #speaker-bios .speaker h3 { font-size: 15px;}
 #speakers #speaker-bios .speaker h4 { margin-bottom: 6px; letter-spacing: 1px; }
