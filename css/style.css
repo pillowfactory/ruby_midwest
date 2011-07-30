@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: 'ClarendonBold';
     src: url('fonts/clarendon_bold_bt-webfont.eot');
@@ -38,6 +39,7 @@
 .clarendon-r { font-family: 'ClarendonBTRoman', Arial, Helvetica, Sans-serif; }
 .clarendon-cn { font-family: 'ClarendonCnBTBold', Arial, Helvetica, Sans-serif; }
 .droid-serif { font-family: 'Droid Serif', Arial, Helvetica, Sans-serif; }
+
 
 * { margin: 0; padding: 0; outline:0; }
 
@@ -157,7 +159,6 @@ textarea { overflow: auto; }
 #registration .tickets .icon { background-position: 0 -3px; width: 45px; height: 45px; top: 0; left: -67px; }
 #registration .hourglass .icon { background-position: -51px -45px; width: 22px; height: 49px; top: -6px; left: -58px; }
 #registration .button { margin-top: 5px; }
-/*#registration .price { background-image: url(images/prices.png); width: 38px; height: 18px; display: inline-block; position: relative; margin-bottom: -20px; top: -14px; }*/
 #registration .price { width: 38px; height: 18px; display: inline-block; position: relative; margin-bottom: -20px; color: #777; font-size: 15px; }
 #registration .general { background-position: 0px -18px }
 #registration .last-minute { background-position: 0px -36px }
@@ -186,8 +187,10 @@ textarea { overflow: auto; }
 #speakers .entry p strong { font-size: 13px; color: #a31c2f; }
 #speakers .entry p a { font-weight: bold; }
 #speakers .entry-body { padding: 18px 0; }
-#speakers .entry-body ul { list-style: none; }
-#speakers .entry-body li { height: 100%; overflow: hidden; padding: 0 0 8px; }
+#speakers .entry-body ul, 
+#speakers .entry-body ol { padding-left: 25px; }
+#speakers .entry-body li { height: 100%; padding: 0 0 8px; }
+#speakers .entry-body ol ul { list-style: disc; }
 #speakers #top-bios { padding-bottom: 3px; }
 #speakers #top-bios .entry { width: 240px; padding-right: 5px; }
 #speakers #top-bios .image img { display: block; margin-bottom: 6px; }
@@ -201,7 +204,6 @@ textarea { overflow: auto; }
 #speakers #speaker-bios .speaker-olabini .talk { border-bottom: 1px none; margin-bottom: 0; }
 #speakers .entry-row { clear:both; }
 #speakers .call-for-proposals p { font-size: 24px; line-height: 28px; text-align: center; color: #333; }
-
 
 #schedule { position: relative; }
 #schedule h3 { font-size: 24px; color: #a31c2f; padding: 0 0 8px; }
@@ -243,3 +245,4 @@ textarea { overflow: auto; }
 .red { color: #a31c2f; }
 
 .subscribe-button { background: url(images/subscribe-button.png); width: 400px; height: 42px; display: block; padding: 0 0 0 50px; margin: 0 auto; font-size: 24px; line-height: 42px; clear: both; }
+*/
