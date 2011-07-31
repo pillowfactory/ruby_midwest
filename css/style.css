@@ -185,7 +185,6 @@ textarea { overflow: auto; }
 #speakers .entry { width: 305px; padding-right: 15px; }
 #speakers .entry p { font-size: 12px; line-height: 17px; padding: 0 0 8px; }
 #speakers .entry p strong { font-size: 13px; color: #a31c2f; }
-#speakers .entry p a { font-weight: bold; }
 #speakers .entry-body { padding: 18px 0; }
 #speakers .entry-body ul, 
 #speakers .entry-body ol { padding-left: 25px; }
