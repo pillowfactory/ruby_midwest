@@ -200,7 +200,6 @@ textarea { overflow: auto; }
 #speakers #speaker-bios .speaker h4 { margin-bottom: 6px; letter-spacing: 1px; }
 #speakers #speaker-bios .speaker a { letter-spacing: -1px; }
 #speakers #speaker-bios .talk { border-top: 3px solid #A31C2F; padding-top: 12px; border-bottom: 1px solid #333; margin-bottom: 12px; }
-#speakers #speaker-bios .speaker-olabini .talk { border-bottom: 1px none; margin-bottom: 0; }
 #speakers .entry-row { clear:both; }
 #speakers .call-for-proposals p { font-size: 24px; line-height: 28px; text-align: center; color: #333; }
 
