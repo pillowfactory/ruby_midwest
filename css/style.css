@@ -185,6 +185,7 @@ textarea { overflow: auto; }
 #speakers .entry { width: 305px; padding-right: 15px; }
 #speakers .entry p { font-size: 12px; line-height: 17px; padding: 0 0 8px; }
 #speakers .entry p strong { font-size: 13px; color: #a31c2f; }
+#speakers .entry p.schedule-link { font-size: 14px; margin-top: 10px;}
 #speakers .entry-body { padding: 18px 0; }
 #speakers .entry-body ul, 
 #speakers .entry-body ol { padding-left: 25px; }
@@ -210,12 +211,12 @@ textarea { overflow: auto; }
 #schedule .entry-body ul { list-style: none; line-height: 24px; }
 #schedule .left-half { width: 370px; padding-right: 16px; text-align: right; }
 #schedule .left-half ul { padding-right: 12px; font-size: 14px; line-height: 24px; font-weight: bold; }
-#schedule .left-half li { white-space: nowrap; }
+/*#schedule .left-half li { white-space: nowrap; }*/
 #schedule .left-half li .pull { position: relative; left: -30px; }
 #schedule .left-half li span { font-weight: normal; }
 #schedule .right-half { width: 372px; }
 #schedule .right-half ul { padding-left: 12px; font-size: 14px; line-height: 24px; font-weight: bold; }
-#schedule .right-half li { white-space: nowrap; }
+/*#schedule .right-half li { white-space: nowrap; }*/
 #schedule .right-half li span { font-weight: normal; }
 #schedule .middle-col { width: 97px; padding: 18px 0; text-align: center; }
 #schedule .middle-col .col-t { background: url(images/col-times-t.png); width: 97px; height: 44px; }
@@ -224,6 +225,9 @@ textarea { overflow: auto; }
 #schedule .middle-col .col-i { width: 96px; margin: -23px 0 -10px; position: relative; }
 #schedule .middle-col ul { font-size: 16px; color: #a31c2f; }
 #schedule .middle-col li span { display: block; }
+
+#schedule li { border-bottom: 1px solid #ddd; margin-bottom: 10px; margin-top: 10px;}
+#schedule img.keynote { margin: 5px 20px; width: 100px; height: 100px; }
 
 #organizers { background: url(images/bg7.jpg) 50% 0 no-repeat; height: 463px; position: relative; padding: 0 20px; margin: 0 -20px; }
 #organizers a { font-size: 18px; line-height: 1.3; position: absolute; text-decoration: none; text-align: center; }
