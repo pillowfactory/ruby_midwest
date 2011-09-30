@@ -233,6 +233,8 @@ textarea { overflow: auto; }
 #schedule .middle-col .col-i { width: 96px; margin: -23px 0 -10px; position: relative; }
 #schedule .middle-col ul { font-size: 16px; color: #a31c2f; }
 #schedule .middle-col li span { display: block; }
+#schedule li.talk { height: 70px; }
+#schedule li.keynote { height: 120px; }
 
 #schedule li { border-bottom: 1px solid #ddd; margin-bottom: 10px; margin-top: 10px;}
 #schedule img.keynote { margin: 5px 20px; width: 100px; height: 100px; }
