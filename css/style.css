@@ -184,7 +184,7 @@ textarea { overflow: auto; }
 #gold-sponsor {text-align: center; width: 60%; margin:0px auto; background: #F1F1F1; padding: 20px; margin-bottom: 10px;  border-bottom: 1px solid #ddd;}
 #media-sponsors {text-align: center; width: 60%; margin:0px auto; background: #F1F1F1; padding: 20px; margin-bottom: 10px;  border-top: 1px solid #ddd; clear: both;}
 #media-sponsors h3 {margin-bottom: 10px;}
-#media-sponsors img {margin: 0 10px;}
+#media-sponsors img {margin: 5px 20px;}
 
 #speakers { background: url(images/bg4.jpg) 50% -305px no-repeat; position: relative; margin-bottom: -118px; }
 #speakers h3 { font-size: 18px; color: #a31c2f; }
