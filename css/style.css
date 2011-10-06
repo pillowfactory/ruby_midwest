@@ -177,14 +177,14 @@ textarea { overflow: auto; }
 #sponsors .entry-body { padding: 20px 0; }
 #sponsors .left-half { text-align: center; }
 #sponsors .right-half { text-align: center; }
-#sponsors .left-half img { margin: 0 0 30px 108px; }
-#sponsors .right-half img { margin-left: 30px; margin-bottom: 30px; }
+#sponsors .left-half img { margin: 0 0 10px 108px; }
+#sponsors .right-half img { margin-left: 30px; margin-bottom: 10px; }
 #sponsors .row-sponsors { clear: both; background: url(images/row-sponsors.png); width: 600px; height: 70px; padding: 7px 0 0; margin: 0 auto 30px; }
 #sponsors .row-sponsors p { font-size: 24px; line-height: 28px; text-align: center; color: #333; }
 #gold-sponsor {text-align: center; width: 60%; margin:0px auto; background: #F1F1F1; padding: 20px; margin-bottom: 10px;  border-bottom: 1px solid #ddd;}
 #media-sponsors {text-align: center; width: 60%; margin:0px auto; background: #F1F1F1; padding: 20px; margin-bottom: 10px;  border-top: 1px solid #ddd; clear: both;}
 #media-sponsors h3 {margin-bottom: 10px;}
-#media-sponsors img {margin: 5px 20px;}
+#media-sponsors img {margin: 5px 10px;}
 
 #speakers { background: url(images/bg4.jpg) 50% -305px no-repeat; position: relative; margin-bottom: -118px; }
 #speakers h3 { font-size: 18px; color: #a31c2f; }
