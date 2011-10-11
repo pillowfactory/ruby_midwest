@@ -245,13 +245,14 @@ textarea { overflow: auto; }
 #schedule .heroku { margin-left: 100px; }
 #schedule .oven-bits { margin-right: 100px; }
 
-#groupon-workshop {text-align: center; width: 80%; margin:0px auto; padding: 30px 0;}
-#groupon-workshop {font-size: 14px;}
-#groupon-workshop h4 {font-size: 18px; margin: 10px 0;}
-#groupon-workshop h5 {font-size: 16px; color: #A31C2F; border-bottom: 1px solid #DDDDDD; margin-top: 10px;}
-#groupon-workshop p {margin-bottom: 10px;}
-#groupon-workshop li { list-style: none; border: none; font-size: 12px; margin: 0; line-height: 12px;}
-
+#groupon-workshop,    #kauffman-hackathon {text-align: center; width: 80%; margin:0px auto; padding: 20px 0;}
+#groupon-workshop,    #kauffman-hackathon {font-size: 14px;}
+#groupon-workshop h4, #kauffman-hackathon h4 {font-size: 18px; margin: 10px 0;}
+#groupon-workshop h5, #kauffman-hackathon h5 {font-size: 16px; color: #A31C2F; border-bottom: 1px solid #DDDDDD; margin-top: 10px;}
+#groupon-workshop p,  #kauffman-hackathon p {margin-bottom: 10px;}
+#groupon-workshop li, #kauffman-hackathon li { list-style: none; border: none; font-size: 12px; margin: 0; line-height: 12px;}
+#kauffman-hackathon .kauffman-labs-logo { vertical-align: top; margin-right: 40px;}
+#kauffman-hackathon .social-volt-logo { vertical-align: top; }
 
 #organizers { background: url(images/bg7.jpg) 50% 0 no-repeat; height: 463px; position: relative; padding: 0 20px; margin: 0 -20px; }
 #organizers a { font-size: 18px; line-height: 1.3; position: absolute; text-decoration: none; text-align: center; }
