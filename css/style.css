@@ -159,7 +159,7 @@ textarea { overflow: auto; }
 #registration .right-half ul { padding-left: 80px; }
 #registration .right-half li { width: 340px; padding-bottom: 48px; }
 #registration .bird .icon { background-position: -96px -3px; width: 44px; height: 32px; top: -2px; left: -67px; }
-#registration .bird strong, #registration .bird span{ text-decoration: line-through;}
+/*#registration .bird strong, #registration .bird span, #registration .tickets strong, #registration .tickets span { text-decoration: line-through;}*/
 #registration .tickets .icon { background-position: 0 -3px; width: 45px; height: 45px; top: 0; left: -67px; }
 #registration .hourglass .icon { background-position: -51px -45px; width: 22px; height: 49px; top: -6px; left: -58px; }
 #registration .button { margin-top: 5px; }
