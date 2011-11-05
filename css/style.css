@@ -69,6 +69,11 @@ textarea { overflow: auto; }
 
 .shell { width: 950px; margin: 0 auto; padding: 0 15px; }
 
+#sponsor-banner-wrapper {background-color: #891528; padding: 10px;}
+#sponsor-banner { width: 950px; margin: 0 auto; padding: 4px; font-size: 21px; color: #FFF; text-align: center; margin-bottom: 10px;}
+#sponsor-banner img { float: left; padding: 0 10px;}
+#sponsor-banner a { color: #ED8230;}
+
 #header { background: url(images/header.jpg) 50% 29px no-repeat; height: 228px; padding: 29px 0 0; }
 
 #welcome-button { font-size: 18px; color: #fff; text-transform: uppercase; line-height: 26px; text-align: center; padding: 0 0 4px; }
