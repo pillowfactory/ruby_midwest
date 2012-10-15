@@ -117,17 +117,15 @@ textarea { overflow: auto; }
 #welcome { }
 #welcome .section-entry { background: url(images/bg1.jpg) 50% 2px no-repeat; height: 711px; position: relative; }
 #welcome .entry-body p { font-size: 16px; line-height: 24px; color: #333; font-weight: bold; padding: 0 15px; text-align: center; }
-/*#welcome .left-half { padding-top: 22px; }
-#welcome .right-half { width: 405px; padding: 11px 0; }*/
+#welcome .left-half { padding-top: 22px; }
+#welcome .right-half { width: 405px; padding: 11px 0; }
 #welcome .follow-link,
 #welcome .dates-info { font-family: Georgia, Times, "Times New Roman", Serif; color: #690012; font-size: 13px; font-weight: bold; font-style: italic; text-align: center; position: absolute; }
 #welcome .follow-link { width: 110px; line-height: 15px; text-decoration: none; bottom: 180px; right: 405px; }
 #welcome .follow-link:hover { text-decoration: underline; }
 #welcome .dates-info { width: 200px; line-height: 17px; bottom: 158px; right: 101px; }
 
-/*
 #travel { background: url(images/bg1.jpg) 50% -709px no-repeat; }
-*/
 #travel .section-head { margin-bottom: 8px; }
 #travel .section-entry { background: url(images/bg2.jpg) 50% 121px no-repeat; height: 832px; position: relative; margin-top: -2px; }
 #travel .entry-body { padding: 16px 0; }
@@ -153,9 +151,7 @@ textarea { overflow: auto; }
 #travel .fire .icon { background-position: -50px -3px; width: 38px; height: 31px; top: -7px; left: -58px; }
 #travel .random-fact { font-family: Georgia, Times, "Times New Roman", Serif; color: #690012; font-size: 13px; line-height: 17px; font-weight: bold; font-style: italic; text-align: center; position: absolute; width: 195px; bottom: 243px; left: 292px; }
 
-/*
 #registration { background: url(images/bg2.jpg) 50% -712px no-repeat; }
-*/
 #registration .section-head { margin-bottom: 8px; }
 #registration .section-entry { background: url(images/bg3.jpg) 50% 262px no-repeat; height: 691px; margin-top: -2px; position: relative; }
 #registration .entry-body { padding-top: 22px; height: 238px; }
@@ -181,9 +177,7 @@ textarea { overflow: auto; }
 #subscription-form .submit { background: transparent; border: none; width: 102px; height: 28px; font-size: 18px; color: #a31c2f; cursor: pointer; text-decoration: underline; }
 #subscription-form .submit:hover { text-decoration: none; }
 
-/*
 #sponsors { background: url(images/bg3.jpg) 50% -429px no-repeat;  }
-*/
 #sponsors .section-entry { background: url(images/bg4.jpg) 50% 772px no-repeat; height: 1075px }
 #sponsors .entry-body { padding: 20px 0; }
 #sponsors .left-half { text-align: center; }
@@ -196,9 +190,8 @@ textarea { overflow: auto; }
 #media-sponsors {text-align: center; width: 60%; margin:0px auto; background: #F1F1F1; padding: 20px; margin-bottom: 10px;  border-top: 1px solid #ddd; clear: both;}
 #media-sponsors h3 {margin-bottom: 10px;}
 #media-sponsors img {margin: 5px 10px;}
-/*
+
 #speakers { background: url(images/bg4.jpg) 50% -305px no-repeat; position: relative; margin-bottom: -118px; }
-*/
 #speakers h3 { font-size: 18px; color: #a31c2f; }
 #speakers .section-entry { background: url(images/bg5.jpg) 50% bottom no-repeat; padding-bottom: 398px; }
 #speakers .image { padding-left: 29px; padding-top: 5px; }
@@ -266,7 +259,6 @@ textarea { overflow: auto; }
 #kauffman-hackathon .kauffman-labs-logo { vertical-align: top; margin-right: 40px;}
 #kauffman-hackathon .social-volt-logo { vertical-align: top; }
 
-/*
 #organizers { background: url(images/bg7.jpg) 50% 0 no-repeat; height: 463px; position: relative; padding: 0 20px; margin: 0 -20px; }
 #organizers a { font-size: 18px; line-height: 1.3; position: absolute; text-decoration: none; text-align: center; }
 #organizers a strong { font-size: 23px; color: #3e4348; display: block; }
@@ -275,7 +267,7 @@ textarea { overflow: auto; }
 #organizers .organizer3 { width: 200px; padding-left: 62px; top: 312px; left: 335px; }
 #organizers .organizer4 { width: 200px; padding-left: 62px; top: 266px; right: 28px; }
 #organizers .organizer5 { width: 200px; padding-left: 62px; top: 379px; right: 128px; }
-*/
+
 .blink { background: #fff; border: 1px solid #b5b5b5; font-size: 14px; line-height: 16px; height: 16px; padding: 5px; width: 173px; box-shadow: 3px 3px 3px #e8e8e8 inset, 1px 1px 1px #fff; }
 
 .button { background: url(images/button.png); width: 130px; height: 30px; padding: 0 2px 2px 0; color: #fff; font-size: 16px; line-height: 30px; font-weight: bold; text-align: center; text-shadow: 0 1px 0 #6a932b; text-decoration: none; }
