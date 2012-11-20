@@ -1,7 +1,7 @@
 use Rack::Static,
   :urls => [
     "/index.html",
-    "/Ruby_Midwest_Sponsorship_Prospectus_2011.pdf",
+    "/rubymidwest-2013-prospectus.pdf",
     "/css",
     "/images",
     "/js",
