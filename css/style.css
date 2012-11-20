@@ -118,7 +118,7 @@ textarea { overflow: auto; }
 #welcome .section-entry { background: url(images/bg1.jpg) 50% 2px no-repeat; height: 711px; position: relative; }
 #welcome .entry-body p { font-size: 16px; line-height: 24px; color: #333; font-weight: bold; padding: 0 15px; text-align: center; }
 #welcome .left-half { padding-top: 22px; }
-#welcome .right-half { width: 405px; padding: 11px 0; }
+#welcome .right-half { width: 405px; padding: 22px 0; }
 #welcome .follow-link,
 #welcome .dates-info { font-family: Georgia, Times, "Times New Roman", Serif; color: #690012; font-size: 13px; font-weight: bold; font-style: italic; text-align: center; position: absolute; }
 #welcome .follow-link { width: 110px; line-height: 15px; text-decoration: none; bottom: 180px; right: 405px; }
