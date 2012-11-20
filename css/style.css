@@ -160,7 +160,7 @@ textarea { overflow: auto; }
 #registration .entry-body li { padding-right: 10px; position: relative; color: #c9c9c9; }
 #registration .entry-body li strong { display: block; font-size: 14px; color: #333; }
 #registration .left-half ul { padding-left: 98px; }
-#registration .left-half li { width: 322px; }
+#registration .left-half li { width: 322px; padding-bottom: 48px;}
 #registration .right-half ul { padding-left: 80px; }
 #registration .right-half li { width: 340px; padding-bottom: 48px; }
 #registration .bird .icon { background-position: -96px -3px; width: 44px; height: 32px; top: -2px; left: -67px; }
